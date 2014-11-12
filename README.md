@@ -10,6 +10,6 @@ AngularJS is an open-source framework in JavaScript. It was created and maintain
 It is an MVC (Model-View-Controller) framework so a brief understanding of MVC is suggested, but not required, to use this tutorial.
 
 ## Course Videos ##
-1. Setting up AngularJS Workspace
-2. Simple Data Binding with AngularJS
+1. [Setting up AngularJS Workspace](https://www.youtube.com/watch?v=ofASsumsf7E "Setting up AngularJS Workspace on YouTube")
+2. [Simple Data Binding with AngularJS](https://www.youtube.com/watch?v=ia_vAGm_PCQ "Simple Data Binding with AngularJS")
 
