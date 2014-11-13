@@ -7,15 +7,15 @@ module.exports = function (grunt)
 				separator: "\n\n"
 			},
 			dist: {
-				src: [],
+				src: ['src/resources/js/binding.js'],
 				dest: 'src/resources/js/<%= pkg.name %>.js'
 			},
 			deps: {
 				src: [
 					'bower_components/modernizr/modernizr.js',
-					'bower_components/jquery/dist/jquery.js',
-					'bower_components/bootstrap/dist/js/bootstrap.js',
-					'bower_components/angular/angular.min.js'
+					'bower_components/jquery/dist/jquery.min.js',
+					'bower_components/bootstrap/dist/js/bootstrap.min.js',
+					'bower_components/angularjs/angular.min.js',
 				],
 				dest: 'src/resources/js/<%= pkg.name %>-deps.js'
 			},
