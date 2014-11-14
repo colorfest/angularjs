@@ -13,3 +13,4 @@ It is an MVC (Model-View-Controller) framework so a brief understanding of MVC i
 1. [Setting up AngularJS Workspace](https://www.youtube.com/watch?v=ofASsumsf7E "Setting up AngularJS Workspace on YouTube")
 2. [Simple Data Binding with AngularJS](https://www.youtube.com/watch?v=ia_vAGm_PCQ "Simple Data Binding with AngularJS")
 3. [An Introduction to Controllers](https://www.youtube.com/watch?v=IGy2c-XwXgI "An Introduction to Controllers")
+4. [Writing Our First Directive](http://youtu.be/QwaVgz-GSXY "Writing our First Directive")
