@@ -1,6 +1,26 @@
 /* use strict */
 var app = angular.module('MyApp', []);
-app.directive('walterwhite', function () 
+
+app.directive('interactiveBtn', function ()
+{
+	return {
+		restrict: 'A',
+		link: function (scope, element, attrs)
+		{
+			element.bind('mouseenter', function ()
+			{
+				element[0].innerText = "Rolled Over";
+			});
+
+			element.bind('mouseleave', function ()
+			{
+				element[0].innerText = "Rolled Out";
+			});
+		}
+	}
+})
+
+.directive('walterwhite', function () 
 {
 	return {
 		restrict: 'E',
@@ -17,4 +37,4 @@ app.directive('walterwhite', function ()
 		transclude: true,
 		template: '<h2>I am Heisenberg</h2>'
 	}*/
-});
+})
