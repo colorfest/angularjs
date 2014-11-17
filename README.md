@@ -15,3 +15,4 @@ It is an MVC (Model-View-Controller) framework so a brief understanding of MVC i
 3. [An Introduction to Controllers](https://www.youtube.com/watch?v=IGy2c-XwXgI "An Introduction to Controllers")
 4. [Writing Our First Directive](http://youtu.be/QwaVgz-GSXY "Writing our First Directive")
 5. [Scope, Element and Attributes](http://youtu.be/utKtjxLako4 "Scope, Element and Attributes")
+6. [Directive Element Binding](http://youtu.be/7vgvBffpSbs "Directive Element Binding")
