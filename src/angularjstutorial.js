@@ -96,9 +96,9 @@ app.controller('ShieldCtrl', function ($scope)
 		transclude: true,
 		link: function (scope, element, attrs)
 		{
-			/*console.log(scope);
+			console.log(scope);
 			console.log(element);
-			console.log(attrs);*/
+			console.log(attrs);
 		}
 	}
 	/*return {
