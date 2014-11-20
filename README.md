@@ -17,3 +17,4 @@ It is an MVC (Model-View-Controller) framework so a brief understanding of MVC i
 5. [Scope, Element and Attributes](http://youtu.be/utKtjxLako4 "Scope, Element and Attributes")
 6. [Directive Element Binding](http://youtu.be/7vgvBffpSbs "Directive Element Binding")
 7. [Directive to Directive Communication](http://youtu.be/aG8VD0KvUw4 "Directive to Directive Communication")
+8. [Directive Restrictions Explained](http://youtu.be/mkEJDWneiPg "Directive Restrictions Explained")
