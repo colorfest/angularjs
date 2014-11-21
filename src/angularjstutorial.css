@@ -9,3 +9,10 @@ html, body {
   height: 100%;
   padding: 0;
   margin: 0; }
+
+figure img {
+  width: 50%;
+  height: auto;
+  border: none;
+  margin: 0;
+  padding: 0; }

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>AccioCode AngularJS Tutorial - Directives</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-COMPATIBLE" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<script src="angularjstutorial-deps.js"></script>
+	<script src="angularjstutorial.js"></script>
+
+	<link rel="stylesheet" href="angularjstutorial.css">
+</head>
+<body>
+	
+	<div class="mainContainer" data-ng-app="isolateApp">
+
+		<div data-ng-controller="AppCtrl">
+			<div class="row">
+				<character name="Roman Reigns" image="resources/img/reigns.png" movetype="movetype" finish-him="useFinisher(name, movetype, finisher)"
+					class="col-xs-4">
+				</character>
+				<character name="Dean Ambrose" image="resources/img/ambrose.png" movetype="movetype" finish-him="useFinisher(name, movetype, finisher)"
+					class="col-xs-4">
+				</character>
+				<character name="Seth Rollins" image="resources/img/rollins.png" movetype="movetype" finish-him="useFinisher(name, movetype, finisher)"
+					class="col-xs-4">
+				</character>
+			</div>
+
+			<div class="row">
+				<div id="result" class="col-xs-12 panel panel-default"></div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

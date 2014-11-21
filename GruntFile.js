@@ -7,7 +7,7 @@ module.exports = function (grunt)
 				separator: "\n\n"
 			},
 			dist: {
-				src: ['src/resources/js/MyApp.js'],
+				src: ['src/resources/js/MyApp.js', 'src/resources/js/isolateScope.js'],
 				dest: 'src/<%= pkg.name %>.js'
 			},
 			deps: {
@@ -46,7 +46,7 @@ module.exports = function (grunt)
 			},
 			styles: {
 				files: ['src/resources/css/*.scss'],
-				tasks: ['sass']
+				tasks: ['sass', 'concat']
 			}
 		}
 	});
