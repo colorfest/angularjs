@@ -7,4 +7,21 @@
 			</figure>
 		</div>
 	</div>
+	<div>Select Move Type:
+		<select data-ng-model="movetype"
+			data-ng-options="movetype for movetype in movetypes">
+		</select>
+	</div>
+	<div>Move: 
+		<input type="text" 
+			data-ng-model="value" 
+			class="form-control">
+	</div>
+	<div class="panel-footer clearfix">
+		<div class="btn btn-primary"
+			data-ng-click="useMove({name:name, movetype:movetype, move:value})">
+				Action!
+		</div>
+	</div>
+
 </div>
