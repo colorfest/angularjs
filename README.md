@@ -15,3 +15,5 @@ It is an MVC (Model-View-Controller) framework so a brief understanding of MVC i
 3. [Directive Element Binding](http://youtu.be/7vgvBffpSbs "Directive Element Binding")
 4. [Directive to Directive Communication](http://youtu.be/aG8VD0KvUw4 "Directive to Directive Communication")
 5. [Directive Restrictions Explained](http://youtu.be/mkEJDWneiPg "Directive Restrictions Explained")
+6. [Isolate Scope Part 1](https://www.youtube.com/watch?v=-a4E2eRHHVY "Isolate Scope Part 1")
+7. [Isolate Scope Part 2](http://youtu.be/UMoDVY8HAVk "Isolate Scope Part 2")
