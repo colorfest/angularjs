@@ -1,6 +1,6 @@
 # Accio Code Tutorials: AngularJS#
 
-***Updated: 11-17-14***
+***Updated: 11-22-14***
 
 This tutorial series for [AccioCode](https://www.youtube.com/user/CDPAdvertising "Accio Code on YouTube") will show how to use the basics of AngularJS. You will learn how to make a simple web page and a simple web application.
 
