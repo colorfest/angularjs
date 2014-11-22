@@ -1,23 +1,10 @@
-<!-- <div class="panel panel-default"><div class="panel-body">Number: {{number}} ' +
-			'<br>Network: <select ng-model="network" ng-options="net for net in networks"></select>' +
-			'<br>Message: <input type="text" class="form-control" ng-model="value"></div>' +
-			'<div class="panel-footer clearfix"><div class="btn btn-primary" ng-click="makeCall({number: number, message:value})">Call home!</div>' +
-			'</div> -->
-
 <div class="panel panel-default">
 	<div class="panel-body">
 		<div>
 			<figure>
 				<img src="{{image}}">
-				<figcaption>{{name}}
+				<figcaption>{{name}}</figcaption>
 			</figure>
-			<hr>
-		</div>
-		<div>Select Move Type: <select ng-model="movetype" ng-options="movetype for movetype in movetypes"></select></div>
-		<div>Move: <input type="text" class="form-control" ng-model="value"></div>
-
-		<div class="panel-footer clearfix">
-			<div class="btn btn-primary" ng-click="finishHim({name:name, movetype:movetype, finisher:value})">Action!</div>
 		</div>
 	</div>
 </div>

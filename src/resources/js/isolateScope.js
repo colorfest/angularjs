@@ -1,11 +1,11 @@
 /* use strict */
-var app = angular.module('isolateApp', []);
+var app = angular.module("isolateApp", []);
 
 app.controller("AppCtrl", function ($scope, $element)
 {
-	$scope.useFinisher = function (name, movetype, finisher)
+	$scope.useMove = function (obj)
 	{
-		$element.find('#result').html('' + name + ' used the ' + movetype + ': ' + finisher);
+		console.log(obj);
 	}
 })
 
@@ -15,16 +15,8 @@ app.controller("AppCtrl", function ($scope, $element)
 		restrict: 'E',
 		scope: {
 			name: "@",
-			image: "@",
-			movetype: "=",
-			finishHim: "&"
+			image: "@"
 		},
-		templateUrl: 'partials/shield_isolate.html',
-		link: function (scope, element, attrs)
-		{
-			scope.movetypes 	= ["Finisher", "Offensive Move", "Defensive Move"];
-			scope.movetype 		= scope.movetypes[0]
-		},
-		controller: "AppCtrl"
+		templateUrl: 'partials/shield_isolate.html'
 	}
 })
