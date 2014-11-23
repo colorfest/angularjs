@@ -9,5 +9,4 @@ AngularJS is an open-source framework in JavaScript. It was created and maintain
 It is an MVC (Model-View-Controller) framework so a brief understanding of MVC is suggested, but not required, to use this tutorial.
 
 ## Sorting and Filtering Course Videos ##
-1. [Services and JSON]( "Services and JSON")
-2. [Sorting a List]( "Sorting a List")
+1. [Services and JSON](http://youtu.be/rHmk0UhJSb4 "Services and JSON")
