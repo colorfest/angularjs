@@ -20,7 +20,7 @@ app.service("ravensService", function ($http, $q)
 	var promise = ravensService.getPlayers();
 	promise.then(function (data)
 	{
-		$scope.team = data;
-		console.log($scope.team);
+		$scope.players = data.data;
+		console.log($scope.players);
 	});
 })

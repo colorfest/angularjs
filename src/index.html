@@ -16,7 +16,22 @@
 		<h1>Baltimore Ravens</h1>
 
 		<div data-ng-controller="ravensCtrl">
-			
+			<table class="table table-striped">
+				<thead>
+					<tr>
+						<th>Player</th>
+						<th>Position</th>
+						<th>Number</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr data-ng-repeat="player in players">
+						<td>{{player.name}}</td>
+						<td>{{player.position}}</td>
+						<td>{{player.number}}</td>
+					</tr>
+				</tbody>
+			</table>
 		</div>
 	</div>
 
