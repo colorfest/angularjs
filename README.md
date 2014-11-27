@@ -21,3 +21,4 @@ It is an MVC (Model-View-Controller) framework so a brief understanding of MVC i
 9. [Isolate Scope Part 1](https://www.youtube.com/watch?v=-a4E2eRHHVY "Isolate Scope Part 1")
 10. [Isolate Scope Part 2](http://youtu.be/UMoDVY8HAVk "Isolate Scope Part 2")
 11. [Services and JSON](http://youtu.be/rHmk0UhJSb4 "Services and JSON")
+12. [Ng-Repeat](http://youtu.be/CqaoKt1Gvyk "Ng-Repeat")
