@@ -11,3 +11,4 @@ It is an MVC (Model-View-Controller) framework so a brief understanding of MVC i
 ## Sorting and Filtering Course Videos ##
 1. [Services and JSON](http://youtu.be/rHmk0UhJSb4 "Services and JSON")
 2. [Ng-Repeat](http://youtu.be/CqaoKt1Gvyk "Ng-Repeat")
+3. [Filters and Sorting](http://youtu.be/7nOcg6SPspI "Filters and Sorting")
