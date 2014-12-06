@@ -21,6 +21,5 @@ app.service("ravensService", function ($http, $q)
 	promise.then(function (data)
 	{
 		$scope.players = data.data;
-		console.log($scope.players);
 	});
 })

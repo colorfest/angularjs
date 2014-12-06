@@ -15,6 +15,8 @@
 	<div class="mainContainer" data-ng-app="RavensApp">
 		<h1>Baltimore Ravens</h1>
 
+		<input type="text" data-ng-model="search.$">
+
 		<div data-ng-controller="ravensCtrl">
 			<table class="table table-striped">
 				<thead>
@@ -25,7 +27,7 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr data-ng-repeat="player in players">
+					<tr data-ng-repeat="player in players | filter:search | orderBy:'-name' | limitTo: 3">
 						<td>{{player.name}}</td>
 						<td>{{player.position}}</td>
 						<td>{{player.number}}</td>
