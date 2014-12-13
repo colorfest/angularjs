@@ -7,8 +7,8 @@ module.exports = function (grunt)
 				separator: "\n\n"
 			},
 			dist: {
-				src: [],
-				dest: 'src/resources/js/<%= pkg.name %>.js'
+				src: ['src/resources/js/**/*.js'],
+				dest: 'src/<%= pkg.name %>.js'
 			},
 			deps: {
 				src: [
@@ -17,13 +17,17 @@ module.exports = function (grunt)
 					'bower_components/bootstrap/dist/js/bootstrap.js',
 					'bower_components/angularjs/angular.min.js',
 				],
-				dest: 'src/resources/js/<%= pkg.name %>-deps.js'
+				dest: 'src/<%= pkg.name %>-deps.js'
 			},
 			css: {
 				src: ['bower_components/bootstrap/dist/css/bootstrap.min.css',
 						'src/resources/css/styles.css'
 				],
 				dest: 'src/resources/css/<%= pkg.name %>.css'
+			},
+			move: {
+				src: ['bower_components/angularjs/angular.min.js.map'],
+				dest: 'src/angular.min.js.map'
 			}
 		},
 
