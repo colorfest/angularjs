@@ -3,3 +3,9 @@ html, body {
   height: 100%;
   padding: 0;
   margin: 0; }
+
+.panel-success {
+  color: #d81e05;
+  background-cikir: #dff0d8;
+  padding: 14px 8px;
+  font-size: 1.55em; }

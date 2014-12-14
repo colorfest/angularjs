@@ -46,7 +46,7 @@ module.exports = function (grunt)
 			},
 			styles: {
 				files: ['src/resources/css/*.scss'],
-				tasks: ['sass']
+				tasks: ['sass:dev', 'concat:css']
 			}
 		}
 	});
@@ -64,6 +64,6 @@ module.exports = function (grunt)
 
 	grunt.registerTask('build', 'Build the application', 
 		['sass:dev',
-		'concat'
+		'concat:dist', 'concat:css', 'concat:move'
 		]);
 }
