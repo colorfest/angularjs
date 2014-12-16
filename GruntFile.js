@@ -16,6 +16,7 @@ module.exports = function (grunt)
 					'bower_components/jquery/dist/jquery.js',
 					'bower_components/bootstrap/dist/js/bootstrap.js',
 					'bower_components/angularjs/angular.min.js',
+					'bower_components/angular-route/angular-route.min.js'
 				],
 				dest: 'src/<%= pkg.name %>-deps.js'
 			},
@@ -28,6 +29,10 @@ module.exports = function (grunt)
 			move: {
 				src: ['bower_components/angularjs/angular.min.js.map'],
 				dest: 'src/angular.min.js.map'
+			},
+			map: {
+				src: ['bower_components/angular-route/angular-route.min.js.map'],
+				dest: 'src/angular-route.min.js.map'
 			}
 		},
 
@@ -64,6 +69,6 @@ module.exports = function (grunt)
 
 	grunt.registerTask('build', 'Build the application', 
 		['sass:dev',
-		'concat:dist', 'concat:css', 'concat:move'
+		'concat:dist', 'concat:css', 'concat:move', 'concat:map'
 		]);
 }

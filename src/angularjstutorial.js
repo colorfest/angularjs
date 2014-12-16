@@ -1,6 +1,26 @@
 /* use strict */
-var app = angular.module('MyApp', [])
-app.controller('MainController', function ($scope)
+
+var app = angular.module('MyApp', ['ngRoute'])
+
+app.config(function ($routeProvider)
+{
+	$routeProvider
+		.when('/',
+		{
+			templateUrl: "partials/sample.html",
+			controller: "MainPageCtrl"
+		})
+		.when('/pageTwo',
+		{
+			template: '<div>This is page <strong>two</strong>!</div>'
+		})
+		.otherwise(
+		{
+			template: '<div><strong>THERE IS NO PAGE HERE!</strong></div>'
+		})
+})
+
+.controller('MainController', function ($scope)
 {
 	$scope.labelName = "New Button";
 	$scope.newElement = angular.element('<div class="btn btn-default">' +
@@ -97,12 +117,16 @@ app.controller('MainController', function ($scope)
 	}
 })
 
-/* use strict */
+.controller("MainPageCtrl", function ($scope)
+{
+	$scope.mainPageMessage = "I am a new page. Sample.";
+})
+
 .directive("buttonDirective", function ()
 {
 	return {
 		restrict: 'AE',
-		transclude: false,
+		transclude: true,
 		template: '<button class="btn btn-primary" type="button">' +
 		'Accio Code <data-ng-transclude></data-ng-transclude>' +
 		'</button>'
