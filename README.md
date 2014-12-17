@@ -24,3 +24,6 @@ It is an MVC (Model-View-Controller) framework so a brief understanding of MVC i
 12. [Ng-Repeat](http://youtu.be/CqaoKt1Gvyk "Ng-Repeat")
 13. [Filters and Sorting](http://youtu.be/7nOcg6SPspI "Filters and Sorting")
 14. [Compile Part 1](https://www.youtube.com/watch?v=FemQfKf03gY "Compile, Pre, Post")
+15. [Compile Part 2](https://www.youtube.com/watch?v=uV_YoyQhrJY "$compile")
+16. [Transclude](https://www.youtube.com/watch?v=A0mdSbdE7-E "Transclude")
+17. [Config, NgView and NgRoute](https://www.youtube.com/watch?v=ZtqzeYooMw4 "Config, NgView and NgRoute")
