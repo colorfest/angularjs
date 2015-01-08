@@ -5,9 +5,13 @@ html, body {
 	margin: 0;
 }
 
-.panel-success {
-	color: #d81e05;
-	background-cikir: #dff0d8;
-	padding: 14px 8px;
-	font-size: 1.55em;
+.boxContainer {
+	width: 100px;
+	height: 100px;
+	display: block;
+	text-align: center;
+	font-size: 2em;
+	color: white;
+	background-color: #000000;
+	padding: 25px 0 0 0;
 }

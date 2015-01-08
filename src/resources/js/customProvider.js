@@ -1,7 +1,3 @@
-/* use strict */
-
-var app = angular.module('MyApp', ['ngRoute'])
-
 app.provider("box", function ()
 {
 	var hex;
