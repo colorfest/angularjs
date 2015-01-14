@@ -10,8 +10,5 @@ AngularJS is an open-source framework in JavaScript. It was created and maintain
 It is an MVC (Model-View-Controller) framework so a brief understanding of MVC is suggested, but not required, to use this tutorial.
 
 ## Course Videos ##
-1. [Compile Part 1](https://www.youtube.com/watch?v=FemQfKf03gY "Compile, Pre, Post")
-2. [Compile Part 2](https://www.youtube.com/watch?v=uV_YoyQhrJY "$compile")
-3. [Transclude](https://www.youtube.com/watch?v=A0mdSbdE7-E "Transclude")
-4. [Config, NgView and NgRoute](https://www.youtube.com/watch?v=ZtqzeYooMw4 "Config, NgView and NgRoute")
-5. [RouteParams]( "Route Params")
+1. [Custom Provider](https://www.youtube.com/watch?v=FemQfKf03gY "Custom Provider")
+2. [Injectors and Invoke](https://www.youtube.com/watch?v=Z8mE2-TWoQ8 "Injectors and Invoke")

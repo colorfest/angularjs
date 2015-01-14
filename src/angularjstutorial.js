@@ -24,7 +24,12 @@ app.provider("box", function ()
 	boxProvider.setColor("#3044b5");
 })
 
-.controller("AppCtrl", function ($scope, box)
+.controller("AppCtrl", function ($scope, $injector)
 {
-	$scope.color = box.color;
+	$injector.invoke(function (box)
+	{
+		$scope.color = box.color;
+		console.log($scope.color);
+	});
 })
+
