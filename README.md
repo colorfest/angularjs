@@ -1,6 +1,6 @@
 # Accio Code Tutorials: AngularJS#
 
-***Updated: 12-13-14***
+***Updated: 1-13-14***
 
 This tutorial series for [AccioCode](https://www.youtube.com/user/CDPAdvertising "Accio Code on YouTube") will show how to use the basics of AngularJS. You will learn how to make a simple web page and a simple web application.
 
@@ -27,3 +27,6 @@ It is an MVC (Model-View-Controller) framework so a brief understanding of MVC i
 15. [Compile Part 2](https://www.youtube.com/watch?v=uV_YoyQhrJY "$compile")
 16. [Transclude](https://www.youtube.com/watch?v=A0mdSbdE7-E "Transclude")
 17. [Config, NgView and NgRoute](https://www.youtube.com/watch?v=ZtqzeYooMw4 "Config, NgView and NgRoute")
+18. [Route Params](https://www.youtube.com/watch?v=BmYVs4LY3OM "Route Params")
+19. [Custom Provider](https://www.youtube.com/watch?v=FemQfKf03gY "Custom Provider")
+20. [Injectors and Invoke](https://www.youtube.com/watch?v=Z8mE2-TWoQ8 "Injectors and Invoke")
