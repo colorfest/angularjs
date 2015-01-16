@@ -13,7 +13,8 @@
     "grunt-contrib-sass": "~0.8.1",
     "grunt-contrib-copy": "~0.7.0",
     "grunt-contrib-watch": "~0.6.1",
-    "grunt-ngdocs": "~0.2.6"
+    "grunt-ngdocs": "~0.2.6",
+    "grunt-ng-annotate": "~0.8.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

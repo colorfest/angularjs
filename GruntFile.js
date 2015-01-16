@@ -36,6 +36,22 @@ module.exports = function (grunt)
 			}
 		},
 
+		ngAnnotate: {
+			options: {
+				singleQuotes: true
+			},
+			dist: {
+				files: [
+					{
+						expand: true,
+						src: 'src/<%= pkg.name %>.js',
+						ext: '.annotated.js',
+						extDot: 'last'
+					}
+				]
+			}
+		},
+
 		sass: {
 			dev: {
 				files: {
@@ -62,6 +78,7 @@ module.exports = function (grunt)
 	grunt.loadNpmTasks('grunt-contrib-sass');
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-contrib-watch');
+	grunt.loadNpmTasks('grunt-ng-annotate');
 	grunt.loadNpmTasks('grunt-ngdocs');
 
 	//tasks
@@ -69,6 +86,6 @@ module.exports = function (grunt)
 
 	grunt.registerTask('build', 'Build the application', 
 		['sass:dev',
-		'concat:dist', 'concat:css', 'concat:move', 'concat:map'
+		'concat:dist', 'ngAnnotate:dist', 'concat:css', 'concat:move', 'concat:map'
 		]);
 }
