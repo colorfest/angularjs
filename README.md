@@ -10,4 +10,4 @@ AngularJS is an open-source framework in JavaScript. It was created and maintain
 It is an MVC (Model-View-Controller) framework so a brief understanding of MVC is suggested, but not required, to use this tutorial.
 
 ## Course Videos ##
-1. [NgAnnotate and Minification]( "NgAnnotate and Minification")
+1. [NgAnnotate and Minification](http://youtu.be/4waCqOuw3Tc "NgAnnotate and Minification")
