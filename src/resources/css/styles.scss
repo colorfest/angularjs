@@ -5,13 +5,13 @@ html, body {
 	margin: 0;
 }
 
-.boxContainer {
-	width: 100px;
-	height: 100px;
-	display: block;
-	text-align: center;
-	font-size: 2em;
+.mainContainer {
+	height: 100%;
+
+}
+
+footer {
+	background: black;
+	padding: 20px 0;
 	color: white;
-	background-color: #000000;
-	padding: 25px 0 0 0;
 }

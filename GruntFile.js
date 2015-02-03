@@ -6,15 +6,15 @@ module.exports = function (grunt)
 			options: {
 				separator: "\n\n"
 			},
-			dist: {
+			dev: {
 				src: ['src/resources/js/**/*.js'],
 				dest: 'src/<%= pkg.name %>.js'
 			},
 			deps: {
 				src: [
 					'bower_components/modernizr/modernizr.js',
-					'bower_components/jquery/dist/jquery.js',
-					'bower_components/bootstrap/dist/js/bootstrap.js',
+					'bower_components/jquery/dist/jquery.min.js',
+					'bower_components/bootstrap/dist/js/bootstrap.min.js',
 					'bower_components/angularjs/angular.min.js',
 					'bower_components/angular-route/angular-route.min.js'
 				],
@@ -26,11 +26,17 @@ module.exports = function (grunt)
 				],
 				dest: 'src/resources/css/<%= pkg.name %>.css'
 			},
-			move: {
+			dist: {
+				files: {
+					'bin/<%= pkg.name %>.min.js': ['src/<%= pkg.name %>.min.js'],
+					'bin/<%= pkg.name %>-deps.js': ['src/<%= pkg.name %>-deps.js']
+				}
+			},
+			moveMap: {
 				src: ['bower_components/angularjs/angular.min.js.map'],
 				dest: 'src/angular.min.js.map'
 			},
-			map: {
+			moveRoute: {
 				src: ['bower_components/angular-route/angular-route.min.js.map'],
 				dest: 'src/angular-route.min.js.map'
 			}
@@ -56,6 +62,33 @@ module.exports = function (grunt)
 			dev: {
 				files: {
 					'src/resources/css/styles.css': 'src/resources/css/styles.scss'
+				}
+			},
+			dist: {
+				options: {
+					style: 'compressed',
+					noCache: true,
+					banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - ' +
+					'<%= grunt.template.today("mm-dd-yyyy") %> */'
+				},
+				files: [{
+					expand: true,
+					src: '*/resources/css/styles.scss',
+					dest: 'bin/',
+					ext: '.css'
+				}]
+			}
+		},
+
+		uglify: {
+			options: {
+				mangle: false,
+				banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - ' +
+				'<%= grunt.template.today("mm-dd-yyyy") %> */'
+			},
+			distJS: {
+				files: {
+					'src/<%= pkg.name %>.min.js': ['src/<%= pkg.name %>.js']
 				}
 			}
 		},
@@ -86,6 +119,6 @@ module.exports = function (grunt)
 
 	grunt.registerTask('build', 'Build the application', 
 		['sass:dev',
-		'concat:dist', 'ngAnnotate:dist', 'concat:css', 'concat:move', 'concat:map'
+		'concat:dist', 'ngAnnotate:dist', 'concat:css', 'concat:moveMap', 'concat:moveRoute'
 		]);
 }

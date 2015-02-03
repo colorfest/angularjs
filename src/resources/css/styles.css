@@ -4,12 +4,10 @@ html, body {
   padding: 0;
   margin: 0; }
 
-.boxContainer {
-  width: 100px;
-  height: 100px;
-  display: block;
-  text-align: center;
-  font-size: 2em;
-  color: white;
-  background-color: #000000;
-  padding: 25px 0 0 0; }
+.mainContainer {
+  height: 100%; }
+
+footer {
+  background: black;
+  padding: 20px 0;
+  color: white; }

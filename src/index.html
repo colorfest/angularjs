@@ -10,15 +10,68 @@
 
 	<link rel="stylesheet" href="resources/css/angularjstutorial.css">
 </head>
-<body>
+<body data-ng-app="WebApp">
 
-	<div class="mainContainer" data-ng-app="MyApp">
-		<div data-ng-controller="MainCtrl">
-			{{message}}
+<header>
+	<div class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">MCU</a>
+			</div>
+
+			<div class="collpase navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home<span class="sr-only"></span></a></li>
+					<li><a href="/movies" title="Films">Films</a></li>
+					<li><a href="/characters" title="Characters">Characters</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-exapnded="false">Phases</span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="/phase/one" title="Phase One">Phase One</a></li>
+							<li><a href="/phase/two" title="Phase Two">Phase Two</a></li>
+							<li><a href="/phase/three" title="Phase Three">Phase Three</a></li>
+						</ul>
+					</li>
+				</ul>
+
+				<!-- right navbar -->
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#" title="Contact">Contact</a></li>
+					<li><a href="#" title="Sign In">Sign In</a></li>
+				</ul>
+			</div>
 		</div>
 	</div>
+</header>
 
+<div class="mainContainer">
 
+</div>
+
+<footer>
+	<div class="searchFooter container-fluid">
+		<div class="row">
+			<div class="col-sm-6 col-md-4 col-md-offset-2">
+				<div class="footerLogo"><a href="/" title="Home"></a></div>
+			</div>
+
+			<div class="col-sm-6 col-md-5">
+				<div class="footerSearch">
+					<form>
+						<input type="text" name="searchWord" id="searchWord" placeholder="Search for ..." required />
+						<input type="button" name="Search" id="search" value="Search" />
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
 
 </body>
 </html>
