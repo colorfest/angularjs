@@ -60,6 +60,10 @@ module.exports = function (grunt)
 			}
 		},
 
+		ngdocs: {
+			all: ['src/resources/js/*.js']
+		},
+
 		watch: {
 			scripts: {
 				files: ['src/resources/js/**/*.js'],
@@ -86,6 +90,7 @@ module.exports = function (grunt)
 
 	grunt.registerTask('build', 'Build the application', 
 		['sass:dev',
-		'concat:dist', 'ngAnnotate:dist', 'concat:css', 'concat:move', 'concat:map'
+		'concat:dist', 'ngAnnotate:dist', 'concat:css', 'concat:move', 'concat:map', 
+		'ngdocs'
 		]);
 }
