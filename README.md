@@ -1,6 +1,6 @@
 # Accio Code Tutorials: AngularJS#
 
-***Updated: 1-16-14***
+***Updated: 2-2-14***
 
 This tutorial series for [AccioCode](https://www.youtube.com/user/CDPAdvertising "Accio Code on YouTube") will show how to use the basics of AngularJS. You will learn how to make a simple web page and a simple web application.
 
@@ -11,3 +11,4 @@ It is an MVC (Model-View-Controller) framework so a brief understanding of MVC i
 
 ## Course Videos ##
 1. [NgAnnotate and Minification](http://youtu.be/4waCqOuw3Tc "NgAnnotate and Minification")
+2. [NgDocs](http://youtu.be/e31elKr5hD0 "NgDocs")
