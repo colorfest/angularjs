@@ -4,13 +4,19 @@ html, body {
   padding: 0;
   margin: 0; }
 
+a {
+  -webkit-transition: all .5s;
+  transition: all .5s; }
+
 .mainContainer {
   height: 100%; }
 
 footer {
   background: black;
   padding: 20px 0;
-  color: white; }
+  color: white;
+  bottom: 0;
+  height: 60x; }
 
 .jumbotron {
   margin-bottom: 0%;
@@ -25,3 +31,25 @@ footer {
   .jumbotron h1 {
     width: 50%;
     margin: 10% 10px 10px 50%; }
+
+.filmsContainer .upcomingFilmsBox h1 {
+  font-size: 2.55em; }
+.filmsContainer .upcomingFilmsBox h2 {
+  font-size: 0.88em;
+  line-height: 1.85em; }
+.filmsContainer .upcomingFilmsBox img {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding: 4px;
+  border: 1px solid #dadada; }
+.filmsContainer .upcomingFilmsBox:hover {
+  cursor: pointer; }
+  .filmsContainer .upcomingFilmsBox:hover img {
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    border-color: red; }
+  .filmsContainer .upcomingFilmsBox:hover h1 {
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    color: red; }

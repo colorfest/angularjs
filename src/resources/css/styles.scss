@@ -1,9 +1,16 @@
+@import 'transitions';
+
 html, body {
 	width: 100%;
 	height: 100%;
 	padding: 0;
 	margin: 0;
 }
+
+a {
+	@include tTransition;
+}
+
 
 .mainContainer {
 	height: 100%;
@@ -14,6 +21,8 @@ footer {
 	background: black;
 	padding: 20px 0;
 	color: white;
+	bottom: 0;
+	height: 60x;
 }
 
 .jumbotron {
@@ -29,5 +38,35 @@ footer {
 	h1 {
 		width: 50%;
 		margin: 10% 10px 10px 50%;
+	}
+}
+
+.filmsContainer {
+	.upcomingFilmsBox {
+		h1 {
+			font-size: 2.55em;
+		}
+		h2 {
+			font-size: 0.88em;
+			line-height: 1.85em;
+		}
+		img {
+			width: 100%;
+			height: auto;
+			overflow: hidden;
+			padding: 4px;
+			border: 1px solid #dadada;
+		}
+		&:hover {
+			cursor: pointer;
+			img {
+				@include tTransition;
+				border-color: red;
+			}
+			h1 {
+				@include tTransition;
+				color: red;
+			}
+		}
 	}
 }
