@@ -1,0 +1,48 @@
+{
+	"MCU": {
+		"Phases": {
+			"title": "Phase 1",
+			"movies": {
+				"Iron Man": {
+					"id": 0,
+					"title": "Iron Man",
+					"thumbnail": "",
+					"date" : "0/0/0",
+					"cast": "",
+					"director": "",
+					"writers": "",
+					"synposis": "",
+					"rating": "",
+					"box-office": ""
+				},
+				"The Incredible Hulk": {
+					"id": 1,
+					"title": "The Incredible Hulk",
+					"thumbnail": "",
+					"date" : "0/0/0",
+					"cast": "",
+					"director": "",
+					"writers": "",
+					"synposis": "",
+					"rating": "",
+					"box-office": ""
+				}
+			},
+			"title": "Phase 2",
+			"movies": {
+				"Iron Man 3": {
+					"id": 0,
+					"title": "Iron Man 3",
+					"thumbnail": "",
+					"date" : "0/0/0",
+					"cast": "",
+					"director": "",
+					"writers": "",
+					"synposis": "",
+					"rating": "",
+					"box-office": ""
+				}
+			}
+		}
+	}
+}

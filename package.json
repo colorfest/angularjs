@@ -14,7 +14,14 @@
     "grunt-contrib-copy": "~0.7.0",
     "grunt-contrib-watch": "~0.6.1",
     "grunt-ngdocs": "~0.2.6",
-    "grunt-ng-annotate": "~0.8.0"
+    "grunt-ng-annotate": "~0.8.0",
+    "gulp": "~3.8.11",
+    "gulp-clean": "~0.3.1",
+    "gulp-concat": "~2.5.2",
+    "gulp-ngdocs": "~0.2.10",
+    "gulp-sass": "~2.0.0",
+    "gulp-uglify": "~1.2.0",
+    "run-sequence": "~1.1.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
