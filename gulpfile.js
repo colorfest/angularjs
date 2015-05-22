@@ -14,7 +14,8 @@ var depsJS 			= ['bower_components/modernizr/modernizr.js',
 					'bower_components/angular-route/angular-route.min.js'];
 var appJS 			= ['src/resources/js/general/app.js',
 						'src/resources/js/general/modules.js',
-						'src/resources/js/general/configs.js'];
+						'src/resources/js/general/configs.js',
+						'src/resources/js/home/*.js'];
 
 /** tasks **/
 gulp.task('devDeps', function ()
@@ -35,4 +36,12 @@ gulp.task('devJS', function ()
 gulp.task('default', function (callback)
 {
 	runSequence('devDeps', 'devJS', callback);
+});
+
+
+
+/** watch **/
+gulp.task('watch', function ()
+{
+	gulp.watch('src/resources/**/*.js', ['devJS']);
 });

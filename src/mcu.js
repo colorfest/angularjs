@@ -60,3 +60,24 @@
 	}]);
 
 }(MCU.Configs = MCU.Configs || {} ));
+(function (Controllers, undefined)
+{
+	MCU.Modules.MCU.controller("HomePageCtrl", ['$scope', function ($scope)
+	{
+		console.log('controller for the home page');
+	}]);
+}(MCU.Controllers = MCU.Controllers || {} ));
+(function (Directives, undefined)
+{
+	MCU.Modules.MCU.directive("homepage", [ function ()
+	{
+		return {
+			restrict: 'E',
+			controller: 'HomePageCtrl',
+			link: function (scope, elm, attrs)
+			{
+				console.log('i am the directive for the home page');
+			}
+		}
+	}]);
+}(MCU.Directives = MCU.Directives || {} ));
