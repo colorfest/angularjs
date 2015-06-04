@@ -14,3 +14,4 @@ It is an MVC (Model-View-Controller) framework so a brief understanding of MVC i
 2. [Setting Up Gulp](https://www.youtube.com/watch?v=FhLpL24xGXU "Setting Up Gulp")
 3. [Single Page AngularJS Navigation](https://www.youtube.com/watch?v=IuBIk1oJ-Uw "Single Page AngularJS Navigation")
 4. [Making the Home Page](https://www.youtube.com/watch?v=xlmx19wo9Dc "Making the Home Page")
+5. [Adding Content to the Home Page](http://youtu.be/0Gzuaoo4j3s "Adding Content to the Home Page")

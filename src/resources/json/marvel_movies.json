@@ -11,7 +11,7 @@
 					"cast": "",
 					"director": "",
 					"writers": "",
-					"synposis": "",
+					"synopsis": "",
 					"rating": "",
 					"box-office": ""
 				},
@@ -23,7 +23,55 @@
 					"cast": "",
 					"director": "",
 					"writers": "",
-					"synposis": "",
+					"synopsis": "",
+					"rating": "",
+					"box-office": ""
+				},
+				"Iron Man 2": {
+					"id": 2,
+					"title": "Iron Man 2",
+					"thumbnail": "",
+					"date": "0/0/00",
+					"cast": "",
+					"director": "",
+					"writers": "",
+					"synopsis": "",
+					"rating": "",
+					"box-office": ""
+				},
+				"Thor": {
+					"id": 3,
+					"title": "Thor",
+					"thumbnail": "",
+					"date": "0/0/00",
+					"cast": "",
+					"director": "",
+					"writers": "",
+					"synopsis": "",
+					"rating": "",
+					"box-office": ""
+				},
+				"Captain America: The First Avenger": {
+					"id": 4,
+					"title": "Captain America: The First Avenger",
+					"thumbnail": "",
+					"date": "0/0/00",
+					"cast": "",
+					"director": "",
+					"writers": "",
+					"synopsis": "",
+					"rating": "",
+					"box-office": ""
+				},
+				"The Avengers": {
+					"id": 5,
+					"title": "The Avengers",
+					"thumbnail": "",
+					"date": "0/0/00",
+					"cast": "",
+					"director": "",
+					"writers": "",
+					"synopsis": "",
 					"rating": "",
 					"box-office": ""
 				}
@@ -38,7 +86,7 @@
 					"cast": "",
 					"director": "",
 					"writers": "",
-					"synposis": "",
+					"synopsis": "",
 					"rating": "",
 					"box-office": ""
 				}
