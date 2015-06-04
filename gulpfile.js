@@ -15,6 +15,7 @@ var depsJS 			= ['bower_components/modernizr/modernizr.js',
 var appJS 			= ['src/resources/js/general/app.js',
 						'src/resources/js/general/modules.js',
 						'src/resources/js/general/configs.js',
+						'src/resources/js/general/phases.directive.js',
 						'src/resources/js/home/*.js'];
 
 /** tasks **/

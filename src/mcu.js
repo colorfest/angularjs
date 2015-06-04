@@ -60,6 +60,16 @@
 	}]);
 
 }(MCU.Configs = MCU.Configs || {} ));
+(function (Directives, undefined)
+{
+	MCU.Modules.MCU.directive("phases", [ function ()
+	{
+		return {
+			restrict: 'E',
+			templateUrl: MCU.PartialsPath + "/phases.html"
+		}
+	}]);
+}(MCU.Directives = MCU.Directives || {} ));
 (function (Controllers, undefined)
 {
 	MCU.Modules.MCU.controller("HomePageCtrl", ['$scope', function ($scope)
