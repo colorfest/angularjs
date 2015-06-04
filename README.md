@@ -1,6 +1,6 @@
 # Accio Code Tutorials: AngularJS#
 
-***Updated: 5-20-15***
+***Updated: 6-4-15***
 
 This tutorial series for [AccioCode](https://www.youtube.com/user/CDPAdvertising "Accio Code on YouTube") will show how to use the basics of AngularJS. You will learn how to make a simple web page and a simple web application.
 
@@ -36,3 +36,4 @@ It is an MVC (Model-View-Controller) framework so a brief understanding of MVC i
 24. [Setting Up Gulp](https://www.youtube.com/watch?v=FhLpL24xGXU "Setting Up Gulp")
 25. [Single Page AngularJS Navigation](https://www.youtube.com/watch?v=IuBIk1oJ-Uw "Single Page AngularJS Navigation")
 26. [Making the Home Page](https://www.youtube.com/watch?v=xlmx19wo9Dc "Making the Home Page")
+27. [Adding Content to the Home Page](http://youtu.be/0Gzuaoo4j3s "Adding Content to the Home Page")
