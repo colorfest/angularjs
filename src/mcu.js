@@ -84,14 +84,15 @@
 }(MCU.Directives = MCU.Directives || {} ));
 (function (Controllers, undefined)
 {
-	MCU.Modules.MCU.controller("PhasesCtrl", ['$scope', 'phasesService', function ($scope, phasesService)
+	MCU.Modules.MCU.controller("PhasesCtrl", ['$scope', 'phasesService', 
+		function ($scope, phasesService)
 	{
-		/*var promise = phasesService.getPhases();
+		var promise = phasesService.getPhases();
 		promise.then(function (data)
 		{
-			$scope.phases = data;
+			$scope.phases = data.data.MCU.Phases;
 			console.log($scope.phases);
-		})*/
+		})
 	}]);
 }(MCU.Controllers = MCU.Controllers || {} ));
 (function (Directives, undefined)
@@ -100,27 +101,24 @@
 	{
 		return {
 			restrict: 'E',
-			link: function (scope, elm, attrs)
-			{
-				
-			}
+			controller: 'PhasesCtrl',
+			templateUrl: MCU.PartialsPath + "/phases.html"
 		}
 	}]);
 }(MCU.Directives = MCU.Directives || {} ));
 (function (Service, undefined)
 {
-	MCU.Modules.MCU.service("phasesService", [ '$http', '$q', function ($http, $q)
+	MCU.Modules.MCU.service("phasesService", ['$http', '$q', function ($http, $q)
 	{
-		/*var deferred = $q.defer();
+		var deferred = $q.defer();
 
 		$http.get('resources/json/marvel_movies.json').then(function (data)
 		{
 			deferred.resolve(data);
 		});
-
 		this.getPhases = function ()
 		{
 			return deferred.promise;
-		}*/
+		}
 	}]);
 }(MCU.Service = MCU.Service || {} ));

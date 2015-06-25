@@ -4,10 +4,8 @@
 	{
 		return {
 			restrict: 'E',
-			link: function (scope, elm, attrs)
-			{
-				
-			}
+			controller: 'PhasesCtrl',
+			templateUrl: MCU.PartialsPath + "/phases.html"
 		}
 	}]);
 }(MCU.Directives = MCU.Directives || {} ));

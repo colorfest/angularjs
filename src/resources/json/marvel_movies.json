@@ -1,81 +1,287 @@
 {
 	"MCU": {
-		"Phase1": {
-			"title": "Phase 1",
-			"movies": {
-				"1": {
-					"id": 0,
-					"title": "Iron Man",
-					"thumbnail": "resources/img/thumbnails/ironman1.jpg",
-					"date" : "5/2/2008",
-					"cast": "Robert Downey Jr., Gwyneth Paltrow, Jon Favreau, Terrence Howard, Jeff Bridges",
-					"director": "Jon Favreau",
-					"writers": "Mark Fergus, Hawk Ostby, Art Marcum, Matt Holloway",
-					"synopsis": "A billionaire industrialist and genius inventor, Tony Stark (Robert Downey Jr.), is conducting weapons tests overseas, but terrorists kidnap him to force him to build a devastating weapon. Instead, he builds an armored suit and upends his captors. Returning to America, Stark refines the suit and uses it to combat crime and terrorism.",
-					"rating": "93%",
-					"box-office": 585200000
-				},
-				"2": {
-					"id": 1,
-					"title": "The Incredible Hulk",
-					"thumbnail": "resources/img/thumbnails/incrediblehulk.jpg",
-					"date" : "6/13/2008",
-					"cast": "Edward Norton, Liv Tyler, William Hurt, Tim Roth",
-					"director": "Louis Leterrier",
-					"writers": "Zak Penn",
-					"synopsis": "Scientist Bruce Banner (Edward Norton) desperately seeks a cure for the gamma radiation that contaminated his cells and turned him into The Hulk. Cut off from his true love Betty Ross (Liv Tyler) and forced to hide from his nemesis, Gen. Thunderbolt Ross (William Hurt), Banner soon comes face-to-face with a new threat: a supremely powerful enemy known as The Abomination (Tim Roth).",
-					"rating": "57%",
-					"box-office": 263400000
-				},
-				"3": {
-					"id": 2,
-					"title": "Iron Man 2",
-					"thumbnail": "resources/img/thumbnails/ironman2.jpg",
-					"date": "5/7/2010",
-					"cast": "Robert Downey Jr., Scarlett Johansson, Jon Favreau, Gwyneth Paltrow, Don Cheadle, Mickey Rourke, Sam Rockwell",
-					"director": "Jon Favreau",
-					"writers": "Justin Theroux",
-					"synopsis": "With the world now aware that he is Iron Man, billionaire inventor Tony Stark (Robert Downey Jr.) faces pressure from all sides to share his technology with the military. He is reluctant to divulge the secrets of his armored suit, fearing the information will fall into the wrong hands. With Pepper Potts (Gwyneth Paltrow) and \"Rhodey\" Rhodes (Don Cheadle) by his side, Tony must forge new alliances and confront a powerful new enemy.",
-					"rating": "73%",
-					"box-office": 623900000
-				},
-				"4": {
-					"id": 3,
-					"title": "Thor",
-					"thumbnail": "resources/img/thumbnails/thor.jpg",
-					"date": "5/6/2011",
-					"cast": "Chris Hemsworth, Tom Hiddleston, Natalie Portman, Anthony Hopkins, Kat Dennings",
-					"director": "Kenneth Branagh",
-					"writers": "Ashley Edward Miller, Zack Stentz, Don Payne",
-					"synopsis": "As the son of Odin (Anthony Hopkins), king of the Norse gods, Thor (Chris Hemsworth) will soon inherit the throne of Asgard from his aging father. However, on the day that he is to be crowned, Thor reacts with brutality when the gods' enemies, the Frost Giants, enter the palace in violation of their treaty. As punishment, Odin banishes Thor to Earth. While Loki (Tom Hiddleston), Thor's brother, plots mischief in Asgard, Thor, now stripped of his powers, faces his greatest threat.",
-					"rating": "77%",
-					"box-office": 449300000
-				},
-				"5": {
-					"id": 4,
-					"title": "Captain America: The First Avenger",
-					"thumbnail": "resources/img/thumbnails/captainamerica.jpg",
-					"date": "7/22/2011",
-					"cast": "Chris Evans, Hayley Atwell, Sebastian Stan, Hugo Weaving, Dominic Cooper",
-					"director": "Joe Johnston",
-					"writers": "Christopher Markus, Stephen McFeely",
-					"synopsis": "It is 1941 and the world is in the throes of war. Steve Rogers (Chris Evans) wants to do his part and join America's armed forces, but the military rejects him because of his small stature. Finally, Steve gets his chance when he is accepted into an experimental program that turns him into a supersoldier called Captain America. Joining forces with Bucky Barnes (Sebastian Stan) and Peggy Carter (Hayley Atwell), Captain America leads the fight against the Nazi-backed HYDRA organization.",
-					"rating": "79%",
-					"box-office": 370600000
-				},
-				"6": {
-					"id": 5,
-					"title": "The Avengers",
-					"thumbnail": "resources/img/thumbnails/theavengers.jpg",
-					"date": "5/4/2012",
-					"cast": "Scarlett Johansson, Robert Downey Jr., Chris Evans, Chris Hemsworth, Mark Ruffalo, Jeremy Renner, Samuel L. Jackson, Cobie Smulders, Tom Hiddleston, Clark Gregg",
-					"director": "Joss Whedon",
-					"writers": "Joss Whedon",
-					"synopsis": "When Thor's evil brother, Loki (Tom Hiddleston), gains access to the unlimited power of the energy cube called the Tesseract, Nick Fury (Samuel L. Jackson), director of S.H.I.E.L.D., initiates a superhero recruitment effort to defeat the unprecedented threat to Earth. Joining Fury's \"dream team\" are Iron Man (Robert Downey Jr.), Captain America (Chris Evans), the Hulk (Mark Ruffalo), Thor (Chris Hemsworth), the Black Widow (Scarlett Johansson) and Hawkeye (Jeremy Renner).",
-					"rating": "92%",
-					"box-office": 1519000000
-				}
+		"Phases": [
+			{
+				"title": "Phase 1",
+				"movies": 
+				[
+					{
+						"id": 0,
+						"title": "Iron Man",
+						"thumbnail": "resources/img/thumbnails/ironman1.jpg",
+						"date" : "5/2/2008",
+						"cast": "Robert Downey Jr., Gwyneth Paltrow, Jon Favreau, Terrence Howard, Jeff Bridges",
+						"director": "Jon Favreau",
+						"writers": "Mark Fergus, Hawk Ostby, Art Marcum, Matt Holloway",
+						"synopsis": "A billionaire industrialist and genius inventor, Tony Stark (Robert Downey Jr.), is conducting weapons tests overseas, but terrorists kidnap him to force him to build a devastating weapon. Instead, he builds an armored suit and upends his captors. Returning to America, Stark refines the suit and uses it to combat crime and terrorism.",
+						"rating": "93%",
+						"box-office": 585200000
+					},
+					{
+						"id": 1,
+						"title": "The Incredible Hulk",
+						"thumbnail": "resources/img/thumbnails/incrediblehulk.jpg",
+						"date" : "6/13/2008",
+						"cast": "Edward Norton, Liv Tyler, William Hurt, Tim Roth",
+						"director": "Louis Leterrier",
+						"writers": "Zak Penn",
+						"synopsis": "Scientist Bruce Banner (Edward Norton) desperately seeks a cure for the gamma radiation that contaminated his cells and turned him into The Hulk. Cut off from his true love Betty Ross (Liv Tyler) and forced to hide from his nemesis, Gen. Thunderbolt Ross (William Hurt), Banner soon comes face-to-face with a new threat: a supremely powerful enemy known as The Abomination (Tim Roth).",
+						"rating": "57%",
+						"box-office": 263400000
+					},
+					{
+						"id": 2,
+						"title": "Iron Man 2",
+						"thumbnail": "resources/img/thumbnails/ironman2.jpg",
+						"date": "5/7/2010",
+						"cast": "Robert Downey Jr., Scarlett Johansson, Jon Favreau, Gwyneth Paltrow, Don Cheadle, Mickey Rourke, Sam Rockwell",
+						"director": "Jon Favreau",
+						"writers": "Justin Theroux",
+						"synopsis": "With the world now aware that he is Iron Man, billionaire inventor Tony Stark (Robert Downey Jr.) faces pressure from all sides to share his technology with the military. He is reluctant to divulge the secrets of his armored suit, fearing the information will fall into the wrong hands. With Pepper Potts (Gwyneth Paltrow) and \"Rhodey\" Rhodes (Don Cheadle) by his side, Tony must forge new alliances and confront a powerful new enemy.",
+						"rating": "73%",
+						"box-office": 623900000
+					},
+					{
+						"id": 3,
+						"title": "Thor",
+						"thumbnail": "resources/img/thumbnails/thor.jpg",
+						"date": "5/6/2011",
+						"cast": "Chris Hemsworth, Tom Hiddleston, Natalie Portman, Anthony Hopkins, Kat Dennings",
+						"director": "Kenneth Branagh",
+						"writers": "Ashley Edward Miller, Zack Stentz, Don Payne",
+						"synopsis": "As the son of Odin (Anthony Hopkins), king of the Norse gods, Thor (Chris Hemsworth) will soon inherit the throne of Asgard from his aging father. However, on the day that he is to be crowned, Thor reacts with brutality when the gods' enemies, the Frost Giants, enter the palace in violation of their treaty. As punishment, Odin banishes Thor to Earth. While Loki (Tom Hiddleston), Thor's brother, plots mischief in Asgard, Thor, now stripped of his powers, faces his greatest threat.",
+						"rating": "77%",
+						"box-office": 449300000
+					},
+					{
+						"id": 4,
+						"title": "Captain America: The First Avenger",
+						"thumbnail": "resources/img/thumbnails/captainamerica.jpg",
+						"date": "7/22/2011",
+						"cast": "Chris Evans, Hayley Atwell, Sebastian Stan, Hugo Weaving, Dominic Cooper",
+						"director": "Joe Johnston",
+						"writers": "Christopher Markus, Stephen McFeely",
+						"synopsis": "It is 1941 and the world is in the throes of war. Steve Rogers (Chris Evans) wants to do his part and join America's armed forces, but the military rejects him because of his small stature. Finally, Steve gets his chance when he is accepted into an experimental program that turns him into a supersoldier called Captain America. Joining forces with Bucky Barnes (Sebastian Stan) and Peggy Carter (Hayley Atwell), Captain America leads the fight against the Nazi-backed HYDRA organization.",
+						"rating": "79%",
+						"box-office": 370600000
+					},
+					{
+						"id": 5,
+						"title": "The Avengers",
+						"thumbnail": "resources/img/thumbnails/theavengers.jpg",
+						"date": "5/4/2012",
+						"cast": "Scarlett Johansson, Robert Downey Jr., Chris Evans, Chris Hemsworth, Mark Ruffalo, Jeremy Renner, Samuel L. Jackson, Cobie Smulders, Tom Hiddleston, Clark Gregg",
+						"director": "Joss Whedon",
+						"writers": "Joss Whedon",
+						"synopsis": "When Thor's evil brother, Loki (Tom Hiddleston), gains access to the unlimited power of the energy cube called the Tesseract, Nick Fury (Samuel L. Jackson), director of S.H.I.E.L.D., initiates a superhero recruitment effort to defeat the unprecedented threat to Earth. Joining Fury's \"dream team\" are Iron Man (Robert Downey Jr.), Captain America (Chris Evans), the Hulk (Mark Ruffalo), Thor (Chris Hemsworth), the Black Widow (Scarlett Johansson) and Hawkeye (Jeremy Renner).",
+						"rating": "92%",
+						"box-office": 1519000000
+					}
+				]
+			},
+			{
+				"title": "Phase 2",
+				"movies": [
+					{
+						"id": 0,
+						"title": "Iron Man 3",
+						"thumbnail": "resources/img/thumbnails/ironman3.jpg",
+						"date" : "5/3/2013",
+						"cast": "Robert Downey Jr., Gwyneth Paltrow, Don Cheadle, Ashley Hamilton, Jon Favreau, Guy Pearce, Ben Kingsley",
+						"director": "Shane Black",
+						"writers": "Drew Pearce, Shane Black",
+						"synopsis": "Plagued with worry and insomnia since saving New York from destruction, Tony Stark (Robert Downey Jr.), now, is more dependent on the suits that give him his Iron Man persona -- so much so that every aspect of his life is affected, including his relationship with Pepper (Gwyneth Paltrow). After a malevolent enemy known as the Mandarin (Ben Kingsley) reduces his personal world to rubble, Tony must rely solely on instinct and ingenuity to avenge his losses and protect the people he loves.",
+						"rating": "79%",
+						"box-office": 1215000000
+					},
+					{
+						"id": 1,
+						"title": "Thor: The Dark World",
+						"thumbnail": "resources/img/thumbnails/thor2.jpg",
+						"date": "11/8/2013",
+						"cast": "Chris Hemsworth, Tom Hiddleston, Natalie Portman, Christopher Eccleston, Zachary Levi, Idris Elba, Rene Russo, Sir Anthony Hopkins",
+						"director": "Alan Taylor",
+						"writers": "Christopher Yost, Christopher Markus, Stephen McFeely",
+						"synopsis": "In ancient times, the gods of Asgard fought and won a war against an evil race known as the Dark Elves. The survivors were neutralized, and their ultimate weapon -- the Aether -- was buried in a secret location. Hundreds of years later, Jane Foster (Natalie Portman) finds the Aether and becomes its host, forcing Thor (Chris Hemsworth) to bring her to Asgard before Dark Elf Malekith (Christopher Eccleston) captures her and uses the weapon to destroy the Nine Realms -- including Earth.",
+						"rating": "65%",
+						"box-office": 644800000
+					},
+					{
+						"id": 2,
+						"title": "Captain America: The Winter Soldier",
+						"thumbnail": "resources/img/thumbnails/captainamerica2.jpg",
+						"date": "4/4/2014",
+						"cast": "Chris Evans, Scarlett Johansson, Anthony Mackie, Sebastian Stan, Robert Redford, Cobie Smulders, Frank Grillo, Georges St-Pierre, Samuel L. Jackson",
+						"director": "Anthony and Joe Russo",
+						"writers": "Christopher Markus, Stephen McFeely",
+						"synopsis": "After the cataclysmic events in New York with his fellow Avengers, Steve Rogers, aka Captain America (Chris Evans), lives in the nation's capital as he tries to adjust to modern times. An attack on a S.H.I.E.L.D. colleague throws Rogers into a web of intrigue that places the whole world at risk. Joining forces with the Black Widow (Scarlett Johansson) and a new ally, the Falcon, Rogers struggles to expose an ever-widening conspiracy, but he and his team soon come up against an unexpected enemy.",
+						"rating": "89%",
+						"box-office": 714800000
+					},
+					{
+						"id": 3,
+						"title": "Guardians of the Galaxy",
+						"thumbnail": "resources/img/thumbnails/guardiansofthegalaxy.jpg",
+						"date": "8/1/2014",
+						"cast": "Chris Pratt, Zoe Saldana, James Gunn, Vin Diesel, Dave Bautista, Bradley Cooper, Lee Pace, Karen Gillan, Michael Rooker, Benicio del Toro, Glenn Close",
+						"director": "James Gunn",
+						"writers": "James Gunn, Nicole Perlman",
+						"synopsis": "Brash space adventurer Peter Quill (Chris Pratt) finds himself the quarry of relentless bounty hunters after he steals an orb coveted by Ronan, a powerful villain. To evade Ronan, Quill is forced into an uneasy truce with four disparate misfits: gun-toting Rocket Raccoon, treelike-humanoid Groot, enigmatic Gamora, and vengeance-driven Drax the Destroyer. But when he discovers the orb's true power and the cosmic threat it poses, Quill must rally his ragtag group to save the universe.",
+						"rating": "91%",
+						"box-office": 774200000
+					},
+					{
+						"id": 4,
+						"title": "Avengers: Age of Ultron",
+						"thumbnail": "resources/img/thumbnails/avengers2.jpg",
+						"date": "5/1/2015",
+						"cast": "Robert Downey Jr., Scarlett Johansson, Mark Ruffalo, Chris Evans, Chris Hemsworth, James Spader, Elizabeth Olsen, Jeremy Renner, Paul Bettany, Aaron Taylor-Johnson, Samuel L. Jackson, Don Cheadle, Andy Serkis, Claudia Kim",
+						"director": "Joss Whedon",
+						"writers": "Joss Whedon",
+						"synopsis": "When Tony Stark (Robert Downey Jr.) jump-starts a dormant peacekeeping program, things go terribly awry, forcing him, Thor (Chris Hemsworth), the Incredible Hulk (Mark Ruffalo) and the rest of the Avengers to reassemble. As the fate of Earth hangs in the balance, the team is put to the ultimate test as they battle Ultron, a technological terror hell-bent on human extinction. Along the way, they encounter two mysterious and powerful newcomers, Pietro and Wanda Maximoff.",
+						"rating": "74%",
+						"box-office": 1348000000
+					},
+					{
+						"id": 5,
+						"title": "Ant-Man",
+						"thumbnail": "resources/img/thumbnails/ant-man.jpg",
+						"date": "7/17/2015",
+						"cast": "Paul Rudd, Michael Douglas, Evangeline Lilly, Corey Stoll, Michael Pena",
+						"director": "Peyton Reed",
+						"writers": "Edgar Wright, Joe Cornish, Adam McKay, Paul Rudd",
+						"synopsis": "With the ability to shrink in size but grow in strength, a con man (Paul Rudd) must help his mentor (Michael Douglas) protect the secret of his Ant-Man suit and pull off a heist that will save the world.",
+						"rating": "n/a",
+						"box-office": 0
+					}
+				]
+			},
+			{
+				"title": "Phase 3",
+				"movies": 
+				[
+					{
+						"id": 0,
+						"title": "Captain America: Civil War",
+						"thumbnail": "resources/img/thumbnails/captainamerica3.jpg",
+						"date": "5/6/2016",
+						"cast": "Chris Evans, Robert Downey Jr., Scarlett Johansson, Daniel Bruhl, Chadwick Boseman, Elizabeth Olsen, Paul Bettany, Sebastian Stan, Jeremy Renner, Paul Rudd, Anthony Mackie, Don Cheadle",
+						"director": "Joe and Anthony Russo",
+						"writers": "Christopher Markus, Stephen McFeely",
+						"synopsis": "A feud between Captain America (Chris Evans) and Iron Man (Robert Downey Jr.) leaves the Avengers in turmoil.",
+						"rating": "n/a",
+						"box-office": 0
+					},
+					{
+						"id": 1,
+						"title": "Doctor Strange",
+						"thumbnail": "resources/img/thumbnails/blankthumbnail.jpg",
+						"date": "11/4/2016",
+						"cast": "Benedict Cumberbatch",
+						"director": "Scott Derrickson",
+						"writers": "Jon Spaihts",
+						"synopsis": "n/a",
+						"rating": "n/a",
+						"box-office": 0
+					},
+					{
+						"id": 2,
+						"title": "Guardians of the Galaxy 2",
+						"thumbnail": "resources/img/thumbnails/blankthumbnail.jpg",
+						"date": "5/5/2017",
+						"cast": "n/a",
+						"director": "James Gunn",
+						"writers": "James Gunn",
+						"synopsis": "n/a",
+						"rating": "n/a",
+						"box-office": 0
+					},
+					{
+						"id": 3,
+						"title": "Spider-Man",
+						"thumbnail": "resources/img/thumbnails/blankthumbnail.jpg",
+						"date": "7/28/2017",
+						"cast": "n/a",
+						"director": "n/a",
+						"writers": "n/a",
+						"synopsis": "n/a",
+						"rating": "n/a",
+						"box-office": 0
+					},
+					{
+						"id": 4,
+						"title": "Thor: Ragnarok",
+						"thumbnail": "resources/img/thumbnails/blankthumbnail.jpg",
+						"date": "11/3/2017",
+						"cast": "Chris Hemsworth, Tom Hiddleston, Idris Elba",
+						"director": "n/a",
+						"writers": "Craig Kyle, Christopher Yost",
+						"synopsis": "n/a",
+						"rating": "n/a",
+						"box-office": 0
+					},
+					{
+						"id": 5,
+						"title": "Avengers: Infinity War Part 1",
+						"thumbnail": "resources/img/thumbnails/blankthumbnail.jpg",
+						"date": "5/4/2018",
+						"cast": "n/a",
+						"director": "Anthony and Joe Russo",
+						"writers": "Christopher Markus, Stephen McFeely",
+						"synopsis": "n/a",
+						"rating": "n/a",
+						"box-office": 0
+					},
+					{
+						"id": 6,
+						"title": "Black Panther",
+						"thumbnail": "resources/img/thumbnails/blankthumbnail.jpg",
+						"date": "7/6/2018",
+						"cast": "Chadwick Boseman, Andy Serkis",
+						"director": "n/a",
+						"writers": "Mark Bailey",
+						"synopsis": "n/a",
+						"rating": "n/a",
+						"box-office": 0
+					},
+					{
+						"id": 7,
+						"title": "Captain Marvel",
+						"thumbnail": "resources/img/thumbnails/blankthumbnail.jpg",
+						"date": "11/2/2018",
+						"cast": "n/a",
+						"director": "n/a",
+						"writers": "Nicole Perlman, Meg LeFauve",
+						"synopsis": "n/a",
+						"rating": "n/a",
+						"box-office": 0
+					},
+					{
+						"id": 8,
+						"title": "Avengers: Infinity War Part 2",
+						"thumbnail": "resources/img/thumbnails/blankthumbnail.jpg",
+						"date": "5/3/2019",
+						"cast": "n/a",
+						"director": "Anthony and Joe Russo",
+						"writers": "Christopher Markus, Stephen McFeely",
+						"synopsis": "n/a",
+						"rating": "n/a",
+						"box-office": 0
+					},
+					{
+						"id": 9,
+						"title": "Inhumans",
+						"thumbnail": "resources/img/thumbnails/blankthumbnail.jpg",
+						"date": "7/12/2019",
+						"cast": "n/a",
+						"director": "n/a",
+						"writers": "Joe Robert Cole",
+						"synopsis": "n/a",
+						"rating": "n/a",
+						"box-office": 0
+					}
+				]
 			}
-		}
+		]
 	}
 }
