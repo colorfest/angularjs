@@ -4,7 +4,10 @@
 	{
 		return {
 			restrict: 'E',
-			templateUrl: MCU.PartialsPath + "/phases.html"
+			link: function (scope, elm, attrs)
+			{
+				
+			}
 		}
 	}]);
 }(MCU.Directives = MCU.Directives || {} ));

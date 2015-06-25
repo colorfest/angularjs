@@ -10,6 +10,7 @@
 	**/
 	MCU.Version 		= "0.0.0";
 	MCU.PartialsPath 	= "partials/";
+	MCU.Service 		= {};
 	MCU.Factory 		= {};
 	MCU.Modules 		= {};
 	MCU.Configs 		= {};
@@ -60,16 +61,6 @@
 	}]);
 
 }(MCU.Configs = MCU.Configs || {} ));
-(function (Directives, undefined)
-{
-	MCU.Modules.MCU.directive("phases", [ function ()
-	{
-		return {
-			restrict: 'E',
-			templateUrl: MCU.PartialsPath + "/phases.html"
-		}
-	}]);
-}(MCU.Directives = MCU.Directives || {} ));
 (function (Controllers, undefined)
 {
 	MCU.Modules.MCU.controller("HomePageCtrl", ['$scope', function ($scope)
@@ -91,3 +82,45 @@
 		}
 	}]);
 }(MCU.Directives = MCU.Directives || {} ));
+(function (Controllers, undefined)
+{
+	MCU.Modules.MCU.controller("PhasesCtrl", ['$scope', 'phasesService', function ($scope, phasesService)
+	{
+		/*var promise = phasesService.getPhases();
+		promise.then(function (data)
+		{
+			$scope.phases = data;
+			console.log($scope.phases);
+		})*/
+	}]);
+}(MCU.Controllers = MCU.Controllers || {} ));
+(function (Directives, undefined)
+{
+	MCU.Modules.MCU.directive("phases", [ function ()
+	{
+		return {
+			restrict: 'E',
+			link: function (scope, elm, attrs)
+			{
+				
+			}
+		}
+	}]);
+}(MCU.Directives = MCU.Directives || {} ));
+(function (Service, undefined)
+{
+	MCU.Modules.MCU.service("phasesService", [ '$http', '$q', function ($http, $q)
+	{
+		/*var deferred = $q.defer();
+
+		$http.get('resources/json/marvel_movies.json').then(function (data)
+		{
+			deferred.resolve(data);
+		});
+
+		this.getPhases = function ()
+		{
+			return deferred.promise;
+		}*/
+	}]);
+}(MCU.Service = MCU.Service || {} ));

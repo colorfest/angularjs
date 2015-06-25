@@ -16,7 +16,8 @@ var appJS 			= ['src/resources/js/general/app.js',
 						'src/resources/js/general/modules.js',
 						'src/resources/js/general/configs.js',
 						'src/resources/js/general/phases.directive.js',
-						'src/resources/js/home/*.js'];
+						'src/resources/js/home/*.js',
+						'src/resources/js/phases/*.js'];
 
 /** tasks **/
 gulp.task('devDeps', function ()
