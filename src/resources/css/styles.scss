@@ -30,7 +30,7 @@ footer {
 	min-height: 300px;
 	color: white;
 	text-shadow: black 0.3em 0.3em 0.3em;
-	background: url("../img/marvel_masterhead.png");
+	background: url("../img/marvel_masthead.png");
 	background-color: #333;
 	h1 {
 		width: 50%;
@@ -40,6 +40,10 @@ footer {
 
 .filmsContainer {
 	.upcomingFilmsBox {
+		height: 900px;
+		overflow: hidden;
+		display: block;
+		margin: 0 0 12px 0;
 		h1 {
 			font-size: 2.55em;
 		}

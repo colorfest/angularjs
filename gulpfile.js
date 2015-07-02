@@ -17,7 +17,8 @@ var appJS 			= ['src/resources/js/general/app.js',
 						'src/resources/js/general/configs.js',
 						'src/resources/js/general/phases.directive.js',
 						'src/resources/js/home/*.js',
-						'src/resources/js/phases/*.js'];
+						'src/resources/js/phases/*.js',
+						'src/resources/js/upcomingfilms/*.js'];
 
 /** tasks **/
 gulp.task('devDeps', function ()
@@ -34,6 +35,26 @@ gulp.task('devJS', function ()
 		.pipe(gulp.dest('src'));
 });
 
+/** style tasks **/
+gulp.task('sass', function ()
+{
+	return gulp.src(['src/resources/css/styles.scss'])
+		.pipe(sass().on('error', sass.logError))
+		.pipe(gulp.dest('src/resources/css/'));
+});
+
+gulp.task('devCSS', function ()
+{
+	return gulp.src(['bower_components/bootstrap/dist/css/bootstrap.min.css', 'src/resources/css/styles.css'])
+		.pipe(concat('mcu.css'))
+		.pipe(gulp.dest('src/resources/css/'));
+});
+
+gulp.task('buildStyles', function ()
+{
+	runSequence('sass', 'devCSS');
+});
+
 /** initialize **/
 gulp.task('default', function (callback)
 {
@@ -46,4 +67,5 @@ gulp.task('default', function (callback)
 gulp.task('watch', function ()
 {
 	gulp.watch('src/resources/**/*.js', ['devJS']);
+	gulp.watch('src/resources/**/*.scss', ['buildStyles'])
 });

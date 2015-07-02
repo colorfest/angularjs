@@ -11,9 +11,9 @@
 	MCU.Version 		= "0.0.0";
 	MCU.PartialsPath 	= "partials/";
 	MCU.Service 		= {};
-	MCU.Factory 		= {};
 	MCU.Modules 		= {};
 	MCU.Configs 		= {};
+	MCU.Filters 		= {};
 	MCU.Controllers 	= {};
 	MCU.Directives 		= {};
 

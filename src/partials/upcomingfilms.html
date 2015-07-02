@@ -1,0 +1,8 @@
+<h1>Upcoming Films</h1>
+<div data-ng-repeat="film in films | orderBy: 'date' | limitTo: 3" class="col-xs-12 col-sm-6 col-md-4 upcomingFilmsBox">
+	<img src="{{film.thumbnail}}" alt="{{film.title}}" />
+	<h1>{{film.title}}</h1>
+	<h2>{{film.date}}</h2>
+
+	<h2>{{film.synopsis}}</h2>
+</div>
