@@ -35,24 +35,25 @@ gulp.task('devJS', function ()
 		.pipe(gulp.dest('src'));
 });
 
-/** style tasks **/
+/** sass tasks **/
 gulp.task('sass', function ()
 {
 	return gulp.src(['src/resources/css/styles.scss'])
 		.pipe(sass().on('error', sass.logError))
-		.pipe(gulp.dest('src/resources/css/'));
+		.pipe(gulp.dest('src/resources/css'));
 });
 
 gulp.task('devCSS', function ()
 {
-	return gulp.src(['bower_components/bootstrap/dist/css/bootstrap.min.css', 'src/resources/css/styles.css'])
+	return gulp.src(['bower_components/bootstrap/dist/css/bootstrap.min.css',
+		'src/resources/css/styles.css'])
 		.pipe(concat('mcu.css'))
 		.pipe(gulp.dest('src/resources/css/'));
 });
 
-gulp.task('buildStyles', function ()
+gulp.task('buildStyles', function (callback)
 {
-	runSequence('sass', 'devCSS');
+	runSequence('sass', 'devCSS', callback);
 });
 
 /** initialize **/
@@ -67,5 +68,5 @@ gulp.task('default', function (callback)
 gulp.task('watch', function ()
 {
 	gulp.watch('src/resources/**/*.js', ['devJS']);
-	gulp.watch('src/resources/**/*.scss', ['buildStyles'])
+	gulp.watch('src/resources/**/*.scss', ['buildStyles']);
 });
