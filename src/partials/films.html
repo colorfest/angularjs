@@ -1,0 +1,72 @@
+<div class="interiorPage">
+	<h1>Films</h1>
+
+	<div class="nextFilmContainer">
+		<nextfilm>
+			<div class="hero-unit">
+				<div class="col-xs-12 col-sm-4">
+					<figure>
+						<img src="{{newFilm.thumbnail}}" alt="{{newFilm.title}}" />
+						<figcaption>{{newFilm.title}}</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-xs-12 col-sm-6">
+					<h1>Next Film:<br>
+						{{newFilm.title}}</h1>
+
+					<h2>{{newFilm.date}}</h2>
+
+					<p>{{newFilm.synopsis}}</p>
+
+					<ul>
+						<li><strong>Starring: </strong>{{newFilm.cast}}</li>
+						<li><strong>Director: </strong>{{newFilm.director}}</li>
+						<li><strong>Writers: </strong>{{newFilm.writers}}</li>
+					</ul>
+				</div>
+			</div>
+		</nextfilm>
+	</div>
+
+	<br>
+	<div class="divider"></div>
+
+	<div class="otherFilms">
+		<div class="col-xs-12 col-sm-6">
+			<h2>Past Films</h2>
+			<dl data-ng-repeat="pastFilm in pastFilms | orderBy:'date'">
+				<div class="row">
+					<div class="col-xs-4">
+						<img src="{{pastFilm.thumbnail}}" alt="{{pastFilm.title}}" />
+					</div>
+
+					<div class="col-xs-8">
+							<dt>{{pastFilm.title}}</dt>
+							<dd>{{pastFilm.date}}</dd>
+
+							<dfn>{{pastFilm.synopsis}}</dfn>
+					</div>
+				</div>
+			</dl>
+		</div>
+
+		<div class="col-xs-12 col-sm-6">
+			<h2>Upcoming Films</h2>
+			<dl data-ng-repeat="film in films | orderBy:'date'">
+				<div class="row">
+					<div class="col-xs-4">
+						<img src="{{film.thumbnail}}" alt="{{film.title}}" />
+					</div>
+
+					<div class="col-xs-8">
+							<dt>{{film.title}}</dt>
+							<dd>{{film.date}}</dd>
+
+							<dfn>{{film.synopsis}}</dfn>
+					</div>
+				</div>
+			</dl>
+		</div>
+	</div>
+</div>

@@ -10,6 +10,30 @@ a {
 	@include tTransition;
 }
 
+dl {
+	margin: 10px 0;
+	background: #f3f4f5;
+	@include tTransition;
+	&:hover {
+		@include tTransition;
+		background: #F11E22;
+		color: white;
+	}
+	img {
+		width: 100%;
+		height: auto;
+		padding: 4px;
+		border: 1px solid #dadada;
+	}
+	dt {
+		font-weight: bold;
+		padding: 12px 0;
+	}
+	dd {
+		font-size: 0.86em;
+	}
+}
+
 .mainContainer {
 	height: 100%;
 }
@@ -68,6 +92,66 @@ footer {
 				@include tTransition;
 				color: red;
 			}
+		}
+	}
+}
+
+.interiorPage {
+	padding: 50px 0 0 0;
+	h1 {
+		font-size: 2em;
+		padding: 0 30px;
+	}
+	br {
+		clear: both;
+		padding: 20px 0;
+		margin: 20px 0;
+		height: 30px;
+	}
+	.divider {
+		border: 1px dashed #333;
+		margin: 20px 0;
+		clear: both;
+	}
+}
+
+.nextFilmContainer {
+	margin: 8px 20px;
+	h1 {
+		padding: 0;
+		margin: 2px;
+		font-size: 3em;
+	}
+	h2 {
+		margin: 0;
+		padding: 0;
+		font-size: 1.05em;
+		color: #989898;
+		font-style: italic;
+	}
+	p {
+		font-size: 1.25em;
+		line-height: 1.35em;
+		padding: 20px 0;
+	}
+
+	ul {
+		li {
+			list-style: none;
+			margin: 0 0 12px -35px;
+		}
+	}
+	figure {
+		img {
+			width: 100%;
+			height: auto;
+			padding: 8px;
+			border: 1px solid #333;
+		}
+		figcaption {
+			color: #989898;
+			font-style: italic;
+			text-align: center;
 		}
 	}
 }

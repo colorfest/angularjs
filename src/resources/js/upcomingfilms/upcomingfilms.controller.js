@@ -7,6 +7,7 @@
 			promise.then(function (data)
 			{
 				var allMovies 		= [];
+				var pastMovies 		= [];
 				var phasesLength 	= data.data.MCU.Phases.length;
 
 				//get todays date
@@ -19,13 +20,22 @@
 					for(var j = 0; j < phasesMovies.length; j++)
 					{
 						var movieDate 	= new Date(data.data.MCU.Phases[i].movies[j].date);
+						//upcoming films
 						if(movieDate > todaysDate)
 						{
 							allMovies.push(data.data.MCU.Phases[i].movies[j]);
 						}
+
+						//past films
+						if(movieDate < todaysDate)
+						{
+							pastMovies.push(data.data.MCU.Phases[i].movies[j]);
+						}
+
 					}
 				}
 				$scope.films 		= allMovies;
+				$scope.pastFilms 	= pastMovies;
 			})
 		}])
 }(MCU.Controllers = MCU.Controllers || {} ));

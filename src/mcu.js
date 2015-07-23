@@ -131,6 +131,7 @@
 			promise.then(function (data)
 			{
 				var allMovies 		= [];
+				var pastMovies 		= [];
 				var phasesLength 	= data.data.MCU.Phases.length;
 
 				//get todays date
@@ -143,13 +144,22 @@
 					for(var j = 0; j < phasesMovies.length; j++)
 					{
 						var movieDate 	= new Date(data.data.MCU.Phases[i].movies[j].date);
+						//upcoming films
 						if(movieDate > todaysDate)
 						{
 							allMovies.push(data.data.MCU.Phases[i].movies[j]);
 						}
+
+						//past films
+						if(movieDate < todaysDate)
+						{
+							pastMovies.push(data.data.MCU.Phases[i].movies[j]);
+						}
+
 					}
 				}
 				$scope.films 		= allMovies;
+				$scope.pastFilms 	= pastMovies;
 			})
 		}])
 }(MCU.Controllers = MCU.Controllers || {} ));
@@ -161,6 +171,25 @@
 			restrict: 'E',
 			controller: 'upcomingfilmsController',
 			templateUrl: MCU.PartialsPath + "/upcomingfilms.html"
+		}
+	}]);
+}(MCU.Directives = MCU.Directives || {} ));
+(function (Directives, undefined)
+{
+	MCU.Modules.MCU.directive("nextfilm", [ '$timeout', function ($timeout)
+	{
+		return {
+			restrict: 'E',
+			controller: 'upcomingfilmsController',
+			link: function (scope, elm, attr)
+			{
+				console.log(scope);
+				$timeout(function ()
+				{
+					scope.newFilm 		= scope.films[0];
+					console.log(scope.films);
+				}, 300);
+			}
 		}
 	}]);
 }(MCU.Directives = MCU.Directives || {} ));

@@ -8,6 +8,27 @@ a {
   -webkit-transition: all 0.5s;
   transition: all 0.5s; }
 
+dl {
+  margin: 10px 0;
+  background: #f3f4f5;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s; }
+  dl:hover {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    background: #F11E22;
+    color: white; }
+  dl img {
+    width: 100%;
+    height: auto;
+    padding: 4px;
+    border: 1px solid #dadada; }
+  dl dt {
+    font-weight: bold;
+    padding: 12px 0; }
+  dl dd {
+    font-size: 0.86em; }
+
 .mainContainer {
   height: 100%; }
 
@@ -58,3 +79,47 @@ footer {
       -webkit-transition: all 0.5s;
       transition: all 0.5s;
       color: red; }
+
+.interiorPage {
+  padding: 50px 0 0 0; }
+  .interiorPage h1 {
+    font-size: 2em;
+    padding: 0 30px; }
+  .interiorPage br {
+    clear: both;
+    padding: 20px 0;
+    margin: 20px 0;
+    height: 30px; }
+  .interiorPage .divider {
+    border: 1px dashed #333;
+    margin: 20px 0;
+    clear: both; }
+
+.nextFilmContainer {
+  margin: 8px 20px; }
+  .nextFilmContainer h1 {
+    padding: 0;
+    margin: 2px;
+    font-size: 3em; }
+  .nextFilmContainer h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.05em;
+    color: #989898;
+    font-style: italic; }
+  .nextFilmContainer p {
+    font-size: 1.25em;
+    line-height: 1.35em;
+    padding: 20px 0; }
+  .nextFilmContainer ul li {
+    list-style: none;
+    margin: 0 0 12px -35px; }
+  .nextFilmContainer figure img {
+    width: 100%;
+    height: auto;
+    padding: 8px;
+    border: 1px solid #333; }
+  .nextFilmContainer figure figcaption {
+    color: #989898;
+    font-style: italic;
+    text-align: center; }
