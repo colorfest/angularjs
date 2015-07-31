@@ -15,7 +15,7 @@
 						"writers": "Mark Fergus, Hawk Ostby, Art Marcum, Matt Holloway",
 						"synopsis": "A billionaire industrialist and genius inventor, Tony Stark (Robert Downey Jr.), is conducting weapons tests overseas, but terrorists kidnap him to force him to build a devastating weapon. Instead, he builds an armored suit and upends his captors. Returning to America, Stark refines the suit and uses it to combat crime and terrorism.",
 						"rating": "93%",
-						"box-office": 585200000
+						"boxoffice": 585200000
 					},
 					{
 						"id": 1,
@@ -27,7 +27,7 @@
 						"writers": "Zak Penn",
 						"synopsis": "Scientist Bruce Banner (Edward Norton) desperately seeks a cure for the gamma radiation that contaminated his cells and turned him into The Hulk. Cut off from his true love Betty Ross (Liv Tyler) and forced to hide from his nemesis, Gen. Thunderbolt Ross (William Hurt), Banner soon comes face-to-face with a new threat: a supremely powerful enemy known as The Abomination (Tim Roth).",
 						"rating": "57%",
-						"box-office": 263400000
+						"boxoffice": 263400000
 					},
 					{
 						"id": 2,
@@ -39,7 +39,7 @@
 						"writers": "Justin Theroux",
 						"synopsis": "With the world now aware that he is Iron Man, billionaire inventor Tony Stark (Robert Downey Jr.) faces pressure from all sides to share his technology with the military. He is reluctant to divulge the secrets of his armored suit, fearing the information will fall into the wrong hands. With Pepper Potts (Gwyneth Paltrow) and \"Rhodey\" Rhodes (Don Cheadle) by his side, Tony must forge new alliances and confront a powerful new enemy.",
 						"rating": "73%",
-						"box-office": 623900000
+						"boxoffice": 623900000
 					},
 					{
 						"id": 3,
@@ -51,7 +51,7 @@
 						"writers": "Ashley Edward Miller, Zack Stentz, Don Payne",
 						"synopsis": "As the son of Odin (Anthony Hopkins), king of the Norse gods, Thor (Chris Hemsworth) will soon inherit the throne of Asgard from his aging father. However, on the day that he is to be crowned, Thor reacts with brutality when the gods' enemies, the Frost Giants, enter the palace in violation of their treaty. As punishment, Odin banishes Thor to Earth. While Loki (Tom Hiddleston), Thor's brother, plots mischief in Asgard, Thor, now stripped of his powers, faces his greatest threat.",
 						"rating": "77%",
-						"box-office": 449300000
+						"boxoffice": 449300000
 					},
 					{
 						"id": 4,
@@ -63,7 +63,7 @@
 						"writers": "Christopher Markus, Stephen McFeely",
 						"synopsis": "It is 1941 and the world is in the throes of war. Steve Rogers (Chris Evans) wants to do his part and join America's armed forces, but the military rejects him because of his small stature. Finally, Steve gets his chance when he is accepted into an experimental program that turns him into a supersoldier called Captain America. Joining forces with Bucky Barnes (Sebastian Stan) and Peggy Carter (Hayley Atwell), Captain America leads the fight against the Nazi-backed HYDRA organization.",
 						"rating": "79%",
-						"box-office": 370600000
+						"boxoffice": 370600000
 					},
 					{
 						"id": 5,
@@ -75,7 +75,7 @@
 						"writers": "Joss Whedon",
 						"synopsis": "When Thor's evil brother, Loki (Tom Hiddleston), gains access to the unlimited power of the energy cube called the Tesseract, Nick Fury (Samuel L. Jackson), director of S.H.I.E.L.D., initiates a superhero recruitment effort to defeat the unprecedented threat to Earth. Joining Fury's \"dream team\" are Iron Man (Robert Downey Jr.), Captain America (Chris Evans), the Hulk (Mark Ruffalo), Thor (Chris Hemsworth), the Black Widow (Scarlett Johansson) and Hawkeye (Jeremy Renner).",
 						"rating": "92%",
-						"box-office": 1519000000
+						"boxoffice": 1519000000
 					}
 				]
 			},
@@ -83,7 +83,7 @@
 				"title": "Phase 2",
 				"movies": [
 					{
-						"id": 0,
+						"id": 6,
 						"title": "Iron Man 3",
 						"thumbnail": "resources/img/thumbnails/ironman3.jpg",
 						"date" : "2013-05-03",
@@ -92,10 +92,10 @@
 						"writers": "Drew Pearce, Shane Black",
 						"synopsis": "Plagued with worry and insomnia since saving New York from destruction, Tony Stark (Robert Downey Jr.), now, is more dependent on the suits that give him his Iron Man persona -- so much so that every aspect of his life is affected, including his relationship with Pepper (Gwyneth Paltrow). After a malevolent enemy known as the Mandarin (Ben Kingsley) reduces his personal world to rubble, Tony must rely solely on instinct and ingenuity to avenge his losses and protect the people he loves.",
 						"rating": "79%",
-						"box-office": 1215000000
+						"boxoffice": 1215000000
 					},
 					{
-						"id": 1,
+						"id": 7,
 						"title": "Thor: The Dark World",
 						"thumbnail": "resources/img/thumbnails/thor2.jpg",
 						"date": "2013-11-08",
@@ -104,10 +104,10 @@
 						"writers": "Christopher Yost, Christopher Markus, Stephen McFeely",
 						"synopsis": "In ancient times, the gods of Asgard fought and won a war against an evil race known as the Dark Elves. The survivors were neutralized, and their ultimate weapon -- the Aether -- was buried in a secret location. Hundreds of years later, Jane Foster (Natalie Portman) finds the Aether and becomes its host, forcing Thor (Chris Hemsworth) to bring her to Asgard before Dark Elf Malekith (Christopher Eccleston) captures her and uses the weapon to destroy the Nine Realms -- including Earth.",
 						"rating": "65%",
-						"box-office": 644800000
+						"boxoffice": 644800000
 					},
 					{
-						"id": 2,
+						"id": 8,
 						"title": "Captain America: The Winter Soldier",
 						"thumbnail": "resources/img/thumbnails/captainamerica2.jpg",
 						"date": "2014-04-04",
@@ -116,10 +116,10 @@
 						"writers": "Christopher Markus, Stephen McFeely",
 						"synopsis": "After the cataclysmic events in New York with his fellow Avengers, Steve Rogers, aka Captain America (Chris Evans), lives in the nation's capital as he tries to adjust to modern times. An attack on a S.H.I.E.L.D. colleague throws Rogers into a web of intrigue that places the whole world at risk. Joining forces with the Black Widow (Scarlett Johansson) and a new ally, the Falcon, Rogers struggles to expose an ever-widening conspiracy, but he and his team soon come up against an unexpected enemy.",
 						"rating": "89%",
-						"box-office": 714800000
+						"boxoffice": 714800000
 					},
 					{
-						"id": 3,
+						"id": 9,
 						"title": "Guardians of the Galaxy",
 						"thumbnail": "resources/img/thumbnails/guardiansofthegalaxy.jpg",
 						"date": "2014-08-01",
@@ -128,10 +128,10 @@
 						"writers": "James Gunn, Nicole Perlman",
 						"synopsis": "Brash space adventurer Peter Quill (Chris Pratt) finds himself the quarry of relentless bounty hunters after he steals an orb coveted by Ronan, a powerful villain. To evade Ronan, Quill is forced into an uneasy truce with four disparate misfits: gun-toting Rocket Raccoon, treelike-humanoid Groot, enigmatic Gamora, and vengeance-driven Drax the Destroyer. But when he discovers the orb's true power and the cosmic threat it poses, Quill must rally his ragtag group to save the universe.",
 						"rating": "91%",
-						"box-office": 774200000
+						"boxoffice": 774200000
 					},
 					{
-						"id": 4,
+						"id": 10,
 						"title": "Avengers: Age of Ultron",
 						"thumbnail": "resources/img/thumbnails/avengers2.jpg",
 						"date": "2015-05-01",
@@ -140,10 +140,10 @@
 						"writers": "Joss Whedon",
 						"synopsis": "When Tony Stark (Robert Downey Jr.) jump-starts a dormant peacekeeping program, things go terribly awry, forcing him, Thor (Chris Hemsworth), the Incredible Hulk (Mark Ruffalo) and the rest of the Avengers to reassemble. As the fate of Earth hangs in the balance, the team is put to the ultimate test as they battle Ultron, a technological terror hell-bent on human extinction. Along the way, they encounter two mysterious and powerful newcomers, Pietro and Wanda Maximoff.",
 						"rating": "74%",
-						"box-office": 1348000000
+						"boxoffice": 1348000000
 					},
 					{
-						"id": 5,
+						"id": 11,
 						"title": "Ant-Man",
 						"thumbnail": "resources/img/thumbnails/ant-man.jpg",
 						"date": "2015-07-17",
@@ -153,7 +153,7 @@
 						"synopsis": "The next evolution of the Marvel Cinematic Universe brings a founding member of The Avengers to the big screen for the first time with Marvel Studios’ “Ant-Man.” Armed with the astonishing ability to shrink in scale but increase in strength, master thief Scott Lang must embrace his inner hero and help his mentor, Dr. Hank Pym, protect the secret behind his spectacular Ant-Man suit from a new generation of towering threats. Against seemingly insurmountable obstacles, Pym and Lang must plan and pull off a heist that will save the world.",
 						"rating": "n/a",
 						"trailer": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/pWdKf3MneyI\" frameborder=\"0\" allowfullscreen></iframe>",
-						"box-office": 0
+						"boxoffice": 0
 					}
 				]
 			},
@@ -162,7 +162,7 @@
 				"movies": 
 				[
 					{
-						"id": 0,
+						"id": 12,
 						"title": "Captain America: Civil War",
 						"thumbnail": "resources/img/thumbnails/captainamerica3.jpg",
 						"date": "2016-05-06",
@@ -172,10 +172,10 @@
 						"synopsis": "A feud between Captain America (Chris Evans) and Iron Man (Robert Downey Jr.) leaves the Avengers in turmoil.",
 						"rating": "n/a",
 						"trailer": "",
-						"box-office": 0
+						"boxoffice": 0
 					},
 					{
-						"id": 1,
+						"id": 13,
 						"title": "Doctor Strange",
 						"thumbnail": "resources/img/thumbnails/blankthumbnail.png",
 						"date": "2016-11-04",
@@ -184,10 +184,10 @@
 						"writers": "Jon Spaihts",
 						"synopsis": "n/a",
 						"rating": "n/a",
-						"box-office": 0
+						"boxoffice": 0
 					},
 					{
-						"id": 2,
+						"id": 14,
 						"title": "Guardians of the Galaxy 2",
 						"thumbnail": "resources/img/thumbnails/blankthumbnail.png",
 						"date": "2017-05-05",
@@ -196,10 +196,10 @@
 						"writers": "James Gunn",
 						"synopsis": "n/a",
 						"rating": "n/a",
-						"box-office": 0
+						"boxoffice": 0
 					},
 					{
-						"id": 3,
+						"id": 15,
 						"title": "Spider-Man",
 						"thumbnail": "resources/img/thumbnails/blankthumbnail.png",
 						"date": "2017-07-28",
@@ -208,10 +208,10 @@
 						"writers": "n/a",
 						"synopsis": "n/a",
 						"rating": "n/a",
-						"box-office": 0
+						"boxoffice": 0
 					},
 					{
-						"id": 4,
+						"id": 16,
 						"title": "Thor: Ragnarok",
 						"thumbnail": "resources/img/thumbnails/blankthumbnail.png",
 						"date": "2017-11-03",
@@ -220,10 +220,10 @@
 						"writers": "Craig Kyle, Christopher Yost",
 						"synopsis": "n/a",
 						"rating": "n/a",
-						"box-office": 0
+						"boxoffice": 0
 					},
 					{
-						"id": 5,
+						"id": 17,
 						"title": "Avengers: Infinity War Part 1",
 						"thumbnail": "resources/img/thumbnails/blankthumbnail.png",
 						"date": "2018-05-04",
@@ -232,10 +232,10 @@
 						"writers": "Christopher Markus, Stephen McFeely",
 						"synopsis": "n/a",
 						"rating": "n/a",
-						"box-office": 0
+						"boxoffice": 0
 					},
 					{
-						"id": 6,
+						"id": 18,
 						"title": "Black Panther",
 						"thumbnail": "resources/img/thumbnails/blankthumbnail.png",
 						"date": "2018-07-06",
@@ -244,10 +244,10 @@
 						"writers": "Mark Bailey",
 						"synopsis": "n/a",
 						"rating": "n/a",
-						"box-office": 0
+						"boxoffice": 0
 					},
 					{
-						"id": 7,
+						"id": 19,
 						"title": "Captain Marvel",
 						"thumbnail": "resources/img/thumbnails/blankthumbnail.png",
 						"date": "2018-11-02",
@@ -256,10 +256,10 @@
 						"writers": "Nicole Perlman, Meg LeFauve",
 						"synopsis": "n/a",
 						"rating": "n/a",
-						"box-office": 0
+						"boxoffice": 0
 					},
 					{
-						"id": 8,
+						"id": 20,
 						"title": "Avengers: Infinity War Part 2",
 						"thumbnail": "resources/img/thumbnails/blankthumbnail.png",
 						"date": "2019-05-03",
@@ -268,10 +268,10 @@
 						"writers": "Christopher Markus, Stephen McFeely",
 						"synopsis": "n/a",
 						"rating": "n/a",
-						"box-office": 0
+						"boxoffice": 0
 					},
 					{
-						"id": 9,
+						"id": 21,
 						"title": "Inhumans",
 						"thumbnail": "resources/img/thumbnails/blankthumbnail.png",
 						"date": "2019-07-12",
@@ -280,7 +280,7 @@
 						"writers": "Joe Robert Cole",
 						"synopsis": "n/a",
 						"rating": "n/a",
-						"box-office": 0
+						"boxoffice": 0
 					}
 				]
 			}

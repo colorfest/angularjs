@@ -1,0 +1,35 @@
+<div class="interiorPage">
+	<h1>{{singlefilm.title}}</h1>
+
+	<div class="nextFilmContainer">
+		<singlefilm>
+			<div class="hero-unit">
+				<div class="col-xs-12 col-sm-4">
+					<figure>
+						<img src="{{singlefilm.thumbnail}}" alt="{{singlefilm.title}}" />
+						<figcaption>{{singlefilm.title}}</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-xs-12 col-sm-6">
+
+					<h2>{{singlefilm.date}}</h2>
+					<h2>{{singlefilm.boxOffice}}</h2>
+
+					<p>{{singlefilm.synopsis}}</p>
+
+					<ul>
+						<li><strong>Starring: </strong>{{singlefilm.cast}}</li>
+						<li><strong>Director: </strong>{{singlefilm.director}}</li>
+						<li><strong>Writers: </strong>{{singlefilm.writers}}</li>
+					</ul>
+				</div>
+			</div>
+		</singlefilm>
+	</div>
+
+	<br>
+	<div class="divider"></div>
+
+	
+</div>

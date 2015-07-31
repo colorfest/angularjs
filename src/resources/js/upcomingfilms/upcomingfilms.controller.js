@@ -8,6 +8,7 @@
 			{
 				var allMovies 		= [];
 				var pastMovies 		= [];
+				var allPhasesMovies = [];
 				var phasesLength 	= data.data.MCU.Phases.length;
 
 				//get todays date
@@ -32,10 +33,14 @@
 							pastMovies.push(data.data.MCU.Phases[i].movies[j]);
 						}
 
+						//entire list
+						allPhasesMovies.push(data.data.MCU.Phases[i].movies[j]);
+
 					}
 				}
-				$scope.films 		= allMovies;
-				$scope.pastFilms 	= pastMovies;
+				$scope.films 				= allMovies;
+				$scope.pastFilms 			= pastMovies;
+				$scope.$parent.allFilms 	= allPhasesMovies;
 			})
 		}])
 }(MCU.Controllers = MCU.Controllers || {} ));

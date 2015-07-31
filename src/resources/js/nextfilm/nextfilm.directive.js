@@ -12,6 +12,7 @@
 				{
 					scope.newFilm 		= scope.films[0];
 					console.log(scope.films);
+					console.log(MCU);
 				}, 300);
 			}
 		}

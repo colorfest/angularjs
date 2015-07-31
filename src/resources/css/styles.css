@@ -11,6 +11,7 @@ a {
 dl {
   margin: 10px 0;
   background: #f3f4f5;
+  cursor: pointer;
   -webkit-transition: all 0.5s;
   transition: all 0.5s; }
   dl:hover {

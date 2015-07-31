@@ -15,7 +15,7 @@
 					<h1>Next Film:<br>
 						{{newFilm.title}}</h1>
 
-					<h2>{{newFilm.date}}</h2>
+					<h2>{{newFilm.date | date:'MMM dd, yyyy'}}</h2>
 
 					<p>{{newFilm.synopsis}}</p>
 
@@ -23,7 +23,12 @@
 						<li><strong>Starring: </strong>{{newFilm.cast}}</li>
 						<li><strong>Director: </strong>{{newFilm.director}}</li>
 						<li><strong>Writers: </strong>{{newFilm.writers}}</li>
+						<li><strong>Rating: </strong>{{newFilm.rating}}</li>
+						<li><strong>Box Office: </strong>{{newFilm.boxoffice | currency}}</li>
 					</ul>
+
+					<div>
+					</div>
 				</div>
 			</div>
 		</nextfilm>
@@ -35,7 +40,8 @@
 	<div class="otherFilms">
 		<div class="col-xs-12 col-sm-6">
 			<h2>Past Films</h2>
-			<dl data-ng-repeat="pastFilm in pastFilms | orderBy:'date'">
+			<dl data-ng-repeat="pastFilm in pastFilms | orderBy:'date'" 
+				data-ng-click="getFilm(pastFilm.id)">
 				<div class="row">
 					<div class="col-xs-4">
 						<img src="{{pastFilm.thumbnail}}" alt="{{pastFilm.title}}" />
@@ -43,7 +49,7 @@
 
 					<div class="col-xs-8">
 							<dt>{{pastFilm.title}}</dt>
-							<dd>{{pastFilm.date}}</dd>
+							<dd>{{pastFilm.date | date: 'MMM dd, yyyy'}}</dd>
 
 							<dfn>{{pastFilm.synopsis}}</dfn>
 					</div>
@@ -53,15 +59,17 @@
 
 		<div class="col-xs-12 col-sm-6">
 			<h2>Upcoming Films</h2>
-			<dl data-ng-repeat="film in films | orderBy:'date'">
+			<dl data-ng-repeat="film in films | orderBy:'date'" 
+				data-ng-click="getFilm(film.id)">
 				<div class="row">
 					<div class="col-xs-4">
-						<img src="{{film.thumbnail}}" alt="{{film.title}}" />
+						<img src="{{film.thumbnail}}" alt="{{film.title}}"
+							data-ng-click="getFilm(film.id)" />
 					</div>
 
 					<div class="col-xs-8">
 							<dt>{{film.title}}</dt>
-							<dd>{{film.date}}</dd>
+							<dd>{{film.date | date:'MMM dd, yyyy'}}</dd>
 
 							<dfn>{{film.synopsis}}</dfn>
 					</div>

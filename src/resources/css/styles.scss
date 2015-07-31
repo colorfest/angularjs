@@ -13,6 +13,7 @@ a {
 dl {
 	margin: 10px 0;
 	background: #f3f4f5;
+	cursor: pointer;
 	@include tTransition;
 	&:hover {
 		@include tTransition;
