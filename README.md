@@ -1,6 +1,6 @@
 # Accio Code Tutorials: AngularJS#
 
-***Updated: 7-3-15***
+***Updated: 8-1-15***
 
 This tutorial series for [AccioCode](https://www.youtube.com/user/CDPAdvertising "Accio Code on YouTube") will show how to use the basics of AngularJS. You will learn how to make a simple web page and a simple web application.
 
@@ -17,4 +17,6 @@ It is an MVC (Model-View-Controller) framework so a brief understanding of MVC i
 5. [Adding Content to the Home Page](http://youtu.be/0Gzuaoo4j3s "Adding Content to the Home Page")
 6. [Making Our Marvel Phases Sub-Menu](http://youtu.be/3x90mxH5wVg "Making Our Marvel Phases Sub-Menu")
 7. [Parsing Upcoming Movies By Date](http://youtu.be/tS-XbfD1iVE "Parsing Upcoming Movies By Date")
-8. [Gulp Watch for Sass Files]( "Gulp Watch for Sass Files")
+8. [Gulp Watch for Sass Files](https://www.youtube.com/watch?v=o8-MWsWKonI "Gulp Watch for Sass Files")
+9. [Date and Currency Formatting](https://www.youtube.com/watch?v=9AYXMQqJ_6g "Date and Currency Formatting")
+10. [Using Compile to Change Content](https://www.youtube.com/watch?v=Ob9E1-TFUBs "Using Compile to Change Content")
