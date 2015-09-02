@@ -1,0 +1,33 @@
+<div class="interiorPage">
+	<h1>Contact</h1>
+
+	<div class="contactContainer">
+		<form name="contactForm" validation>
+			<div data-ng-hide="formError()"></div>
+
+			<!-- USER NAME -->
+			<div class="row">
+				<input type="text" name="name" data-ng-model="contactData.name"
+					placeholder="Full Name" data-ng-minlength="3" required />
+			</div>
+
+			<!-- USER EMAIL -->
+			<div class="row">
+				<input type="text" name="email" data-ng-model="contactData.email"
+					placeholder="name@email.com" data-ng-minlength="3" required />
+			</div>
+
+			<!-- USER MESSAGE -->
+			<div class="row">
+				<textarea data-ng-model="contactData.message" rows="4" id="inputMessage"
+					name="inputMessage" placeholder="I'm burdened with glorious purpose ..."></textarea>
+			</div>
+
+			<div class="row">
+				<!-- SUBMIT -->
+				<input type="submit" data-ng-disabled="submitButtonDisabled"
+					data-ng-click="submitContactForm()" />
+			</div>
+		</form>
+	</div>
+</div>

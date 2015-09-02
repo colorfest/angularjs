@@ -54,6 +54,9 @@
 			.when('/phase3', {
 				templateUrl: MCU.PartialsPath + '/phase3.html'
 			})
+			.when('/contact', {
+				templateUrl: MCU.PartialsPath + '/contact.html'
+			})
 			.otherwise({
 				redirectTo: '/',
 				templateUrl: MCU.PartialsPath + '/home.html'
