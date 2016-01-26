@@ -44,3 +44,4 @@ It is an MVC (Model-View-Controller) framework so a brief understanding of MVC i
 32. [Date and Currency Formatting](https://www.youtube.com/watch?v=9AYXMQqJ_6g "Date and Currency Formatting")
 33. [Using Compile to Change Content](https://www.youtube.com/watch?v=Ob9E1-TFUBs "Using Compile to Change Content")
 34. [Starting Our Webpage Contact Form](http://youtu.be/L34s4xwBvwE "Starting Our Webpage Contact Form")
+35. [Styling Our Contact Form](https://www.youtube.com/watch?v=INuhVedMnso "Styling Our Contact Form")
