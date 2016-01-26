@@ -117,6 +117,31 @@ footer {
 	form {
 		margin: 20px 30px;
 	}
+
+	.contactContainer {
+		input[type="text"], textarea {
+			margin: 4px 8px;
+			border: 2px solid #000;
+			padding: 4px;
+			color: red;
+		}
+
+		textarea {
+			width: 100%;
+		}
+
+		input[type="button"]{
+			margin: 12px 8px;
+			background: grey;
+			color: #333;
+			text-align: center;
+			border: none;
+			&:hover {
+				background: #666;
+				color: white;
+			}
+		}
+	}
 }
 
 .nextFilmContainer {

@@ -5,18 +5,18 @@ html, body {
   margin: 0; }
 
 a {
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s; }
+  -webkit-transition: all .5s;
+  transition: all .5s; }
 
 dl {
   margin: 10px 0;
   background: #f3f4f5;
   cursor: pointer;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s; }
+  -webkit-transition: all .5s;
+  transition: all .5s; }
   dl:hover {
-    -webkit-transition: all 0.5s;
-    transition: all 0.5s;
+    -webkit-transition: all .5s;
+    transition: all .5s;
     background: #F11E22;
     color: white; }
   dl img {
@@ -73,12 +73,12 @@ footer {
   .filmsContainer .upcomingFilmsBox:hover {
     cursor: pointer; }
     .filmsContainer .upcomingFilmsBox:hover img {
-      -webkit-transition: all 0.5s;
-      transition: all 0.5s;
+      -webkit-transition: all .5s;
+      transition: all .5s;
       border-color: red; }
     .filmsContainer .upcomingFilmsBox:hover h1 {
-      -webkit-transition: all 0.5s;
-      transition: all 0.5s;
+      -webkit-transition: all .5s;
+      transition: all .5s;
       color: red; }
 
 .interiorPage {
@@ -97,6 +97,22 @@ footer {
     clear: both; }
   .interiorPage form {
     margin: 20px 30px; }
+  .interiorPage .contactContainer input[type="text"], .interiorPage .contactContainer textarea {
+    margin: 4px 8px;
+    border: 2px solid #000;
+    padding: 4px;
+    color: red; }
+  .interiorPage .contactContainer textarea {
+    width: 100%; }
+  .interiorPage .contactContainer input[type="button"] {
+    margin: 12px 8px;
+    background: grey;
+    color: #333;
+    text-align: center;
+    border: none; }
+    .interiorPage .contactContainer input[type="button"]:hover {
+      background: #666;
+      color: white; }
 
 .nextFilmContainer {
   margin: 8px 20px; }

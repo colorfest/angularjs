@@ -20,7 +20,8 @@ var appJS 			= ['src/resources/js/general/app.js',
 						'src/resources/js/home/*.js',
 						'src/resources/js/phases/*.js',
 						'src/resources/js/upcomingfilms/*.js',
-						'src/resources/js/nextfilm/*.js'];
+						'src/resources/js/nextfilm/*.js',
+						'src/resources/js/contact/*.js'];
 
 /** tasks **/
 gulp.task('devDeps', function ()

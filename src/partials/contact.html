@@ -1,19 +1,24 @@
 <div class="interiorPage">
 	<h1>Contact</h1>
 
-	<div class="contactContainer">
-		<form name="contactForm" validation>
-			<div data-ng-hide="formError()"></div>
+	<div class="contactContainer" data-ng-controller="ContactController">
+		<form name="contactForm" validation data-ng-submit="submit(contactform)"
+			method="post"
+			action=""
+			role="form">
+			<div data-ng-hide="formError()">
+				{{errorMessage}}
+			</div>
 
 			<!-- USER NAME -->
 			<div class="row">
-				<input type="text" name="name" data-ng-model="contactData.name"
+				<input type="text" name="name" id="name" data-ng-model="contactData.name"
 					placeholder="Full Name" data-ng-minlength="3" required />
 			</div>
 
 			<!-- USER EMAIL -->
 			<div class="row">
-				<input type="text" name="email" data-ng-model="contactData.email"
+				<input type="text" name="email" id="email" data-ng-model="contactData.email"
 					placeholder="name@email.com" data-ng-minlength="3" required />
 			</div>
 
@@ -25,8 +30,10 @@
 
 			<div class="row">
 				<!-- SUBMIT -->
-				<input type="submit" data-ng-disabled="submitButtonDisabled"
-					data-ng-click="submitContactForm()" />
+				<input type="button" class="btn btn-default"
+					data-ng-disabled="submitButtonDisabled"
+					data-ng-click="submit(contactform)"
+					value="Send" />
 			</div>
 		</form>
 	</div>
