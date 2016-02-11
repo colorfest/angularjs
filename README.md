@@ -1,6 +1,6 @@
 # Accio Code Tutorials: AngularJS#
 
-***Updated: 7-2-15***
+***Updated: 2-10-16***
 
 This tutorial series for [AccioCode](https://www.youtube.com/user/CDPAdvertising "Accio Code on YouTube") will show how to use the basics of AngularJS. You will learn how to make a simple web page and a simple web application.
 
@@ -45,3 +45,5 @@ It is an MVC (Model-View-Controller) framework so a brief understanding of MVC i
 33. [Using Compile to Change Content](https://www.youtube.com/watch?v=Ob9E1-TFUBs "Using Compile to Change Content")
 34. [Starting Our Webpage Contact Form](http://youtu.be/L34s4xwBvwE "Starting Our Webpage Contact Form")
 35. [Styling Our Contact Form](https://www.youtube.com/watch?v=INuhVedMnso "Styling Our Contact Form")
+36. [Contact Form Controller](https://www.youtube.com/watch?v=_Dw5ngrt_Xg "Contact Form Controller")
+37. [Finishing Our Contact Form](https://www.youtube.com/watch?v=zdOBe4_qbWs "Finishing Our Contact Form")
