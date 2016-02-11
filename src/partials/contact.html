@@ -2,12 +2,12 @@
 	<h1>Contact</h1>
 
 	<div class="contactContainer" data-ng-controller="ContactController">
-		<form name="contactForm" validation data-ng-submit="submit(contactform)"
+		<form name="contactform" validation data-ng-submit="submit(contactform)"
 			method="post"
 			action=""
 			role="form">
-			<div data-ng-hide="formError()">
-				{{errorMessage}}
+			<div data-ng-hide="formError()" data-ng-class="result">
+				{{resultMessage}}
 			</div>
 
 			<!-- USER NAME -->

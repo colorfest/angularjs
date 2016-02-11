@@ -141,6 +141,18 @@ footer {
 				color: white;
 			}
 		}
+
+		.bg-danger, .bg-success {
+			margin: 0;
+			padding: 12px;
+			background: red;
+			color: white;
+		}
+
+		.bg-success {
+			background: lightblue;
+			color: #dadada;
+		}
 	}
 }
 

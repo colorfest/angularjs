@@ -118,6 +118,14 @@ footer {
     .interiorPage .contactContainer input[type="button"]:hover {
       background: #666;
       color: white; }
+  .interiorPage .contactContainer .bg-danger, .interiorPage .contactContainer .bg-success {
+    margin: 0;
+    padding: 12px;
+    background: red;
+    color: white; }
+  .interiorPage .contactContainer .bg-success {
+    background: lightblue;
+    color: #dadada; }
 
 .nextFilmContainer {
   margin: 8px 20px; }
